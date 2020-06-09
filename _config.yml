@@ -14,8 +14,9 @@ author: Mairi McQueer
 navbar-links:
   CV: "aboutme"
   Blogs/Guides:
-    - LaTeX Guide: "_posts/2020-06-09-latex-guide" 
+    - LaTeX Guide: "2020-06-09-latex-guide" 
   Github: "https://github.com/1320071"
+  Twitter: "https://twitter.com/mairi_mcqueer"
 
 # --- Logo --- #
 
