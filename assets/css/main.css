@@ -43,8 +43,8 @@ h4 {
   font-size: 1.125rem;
 }
 a {
-  color: {{ site.link-col | default: "#008AFF" }};
-}
+  color: {{ site.link-col | default: "#7accd3" }};
+} 
 a:hover,
 a:focus {
   color: {{ site.hover-col | default: "#f96bbc" }};
@@ -126,8 +126,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col | default: "#fcd1e9" }};
-  border-bottom: 1px solid {{ site.navbar-border-col | default: "#fcc9e6" }};
+  background-color: {"#fcd1e9" };
+  border-bottom: 1px solid {"#fcc9e6"};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -183,7 +183,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-item:focus {
-  color: {{ site.hover-col | default: "#f96bbc" }};
+  color: {"#f96bbc"};
 }
 
 .navbar-custom .navbar-nav .nav-item {
@@ -385,11 +385,11 @@ footer {
 }
 
 footer p.text-muted {
-  color: {{ site.footer-text-col | default: "#d9a9e5" }} !important;
+  color: {"#d9a9e5"} !important;
 }
 
 footer a {
-  color: {{ site.footer-link-col | default: "#c086ce" }};
+  color: {"#c086ce"};
 }
 
 footer .list-inline {
@@ -453,7 +453,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: {{ site.hover-col | default: "#f96bbc" }};
+  color: {"#f96bbc"};
 }
 
 .post-preview .post-title {
@@ -517,14 +517,14 @@ footer .footer-custom-content {
 }
 
 .blog-tags a {
-  color: {{ site.link-col | default: "#fcc9e6" }};
+  color: {"#fcc9e6"};
   text-decoration: none;
   padding: 0 0.3125rem;
 }
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: {{ site.hover-col | default: "#f96bbc" }};
+  color: { "#f96bbc"};
   background-color: #EEE;
 }
 
@@ -657,7 +657,7 @@ footer .footer-custom-content {
 
 .header-section.has-img .no-img {
   margin-top: 0;
-  background-color: #FCFCFC;
+  background-color: #fcc9e6;
   margin: 0 0 2.5rem;
   padding: 1.25rem 0;
   box-shadow: 0 0 0.3125rem #AAA;
@@ -761,8 +761,8 @@ footer .footer-custom-content {
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
   color: #FFF;
-  border: 1px solid {{ site.hover-col | default: "#f96bbc" }};
-  background-color: {{ site.hover-col | default: "#f96bbc" }};
+  border: 1px solid {"#fcc9e6" };
+  background-color: {"#f96bbc"};
 }
 
 /* --- Tables --- */
