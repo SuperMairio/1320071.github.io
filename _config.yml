@@ -12,7 +12,7 @@ author: Mairi McQueer
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  CV: "aboutme"
+  #CV: "aboutme"
   Blogs/Guides:
     - LaTeX Guide: "2020-06-09-latex-guide" 
   Github: "https://github.com/1320071"
