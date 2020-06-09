@@ -8,12 +8,12 @@ tags: [Coding, LaTeX]
 
 ## Headers
 
-![Headers](assets/img/section.png)  \
-`\section{}` \
-![Headers](assets/img/subsection.png) \
-`\subsection{}` \
-![Headers](assets/img/subsubsection.png)  \
-`\subsubsection{}` \
+![Headers](assets/img/section.png)<br/>
+`\section{}`<br/>
+![Headers](assets/img/subsection.png)<br/>
+`\subsection{}`<br/>
+![Headers](assets/img/subsubsection.png)<br/>
+`\subsubsection{}`<br/>
 ![Headers](assets/img/paragraph.png)
 `\paragraph{}`  
 
@@ -74,14 +74,14 @@ Medium `\mdseries{}` (Similar to normal and useful for headers)
 ---
 
 ## Colours
-**Remember to use the American spelling!** \
-``\usepackage[dvipsnames]{xcolor}`` \
+**Remember to use the American spelling!**<br/>
+``\usepackage[dvipsnames]{xcolor}``<br/>
 ``\definecolor{MyFavouriteColour}{RGB}{252,252,37}``
 
 When you want to use this colour just call it using `\color{}`, for
-whole sections you can call this before the `\include` statement e.g. \
+whole sections you can call this before the `\include` statement e.g.<br/>
 
-`\color{MyFavouriteColour}` \
+`\color{MyFavouriteColour}`<br/>
 `\include{Page.tex}`
 
 This package also has a number of predefined colours like black, pink
@@ -97,14 +97,14 @@ Then you make the page style 'fancy' and remove the default header and
 footers:\
 `\pagestyle{fancy}`\
 `\fancypagestyle{plain}{}`\
-`\fancyhf{}` \
+`\fancyhf{}`<br/>
 From here you can make the header and footer whatever you
 want (l= left, c= centre, r= right)\
 `\fancyfoot[l]{blah}`\
-`\fancyfoot[c]{Page \thepage}`\
+`\fancyfoot[c]{\thepage}`\
 `\fancyfoot[r]{\today}` `\lhead{blah}`\
-`\chead{Page \thepage}`\
-`\rhead{\today}` \
+`\chead{Page\thepage}`\
+`\rhead{\today}`<br/>
 
 `\thepage` gets the current page number and `\today`
 gets the current date.
@@ -151,9 +151,9 @@ folder as your main and use this command: `\include{name.tex}`
 ---
 
 ## Columns
-`\usepackage{multicols}` \
-`\begin{multicols}{number}` \
-` Stuff you want in multiple columns ` \
+`\usepackage{multicols}`<br/>
+`\begin{multicols}{number}`<br/>
+` Stuff you want in multiple columns `<br/>
 `\end{multicols}`
 
 ---
@@ -194,29 +194,29 @@ measurements.\
 ### <u>Fixing image location</u>
 `\begin{figure}[x]`\
 **h** : Place image roughly in same order as it appears in source
-(sometimes LaTeX decides no and puts it somewhere else)\
-**t** : Place at top of page\
-**b** : Place at bottom of page\
-**p** : Puts on separate page for assets/img only\
-**!** : Overrides what LaTeX thinks is right e.g. \[h!\] places it where you specify exactly\
+(sometimes LaTeX decides no and puts it somewhere else)<br/>
+**t** : Place at top of page<br/>
+**b** : Place at bottom of page<br/>
+**p** : Puts on separate page for assets/img only<br/>
+**!** : Overrides what LaTeX thinks is right e.g. \[h!\] places it where you specify exactly<br/>
 **H** : Same as \[h!\] but requires the float package and I find is more precise.
 
 ### <u>Captions and labels</u>
-`\caption{caption text}`\
+`\caption{caption text}`<br/>
 Captions label imagesand automatically increment figure number so you don't have to. To make sure you always reference the correct figure use labels, in the figure tags include the line
-`\label{fig:short snappy name}`. \
+`\label{fig:short snappy name}`.<br/>
 Then you can call in inline using
 `\pageref{fig:short snappy name}` and if you add/delete images it will
 update the figure number accordingly.
 
 ### <u>Example</u>
-`\usepackage{graphicx}` \
-`\usepackage{float}` \
+`\usepackage{graphicx}`<br/>
+`\usepackage{float}`<br/>
 
-`\begin{figure}[H]` \
-`\centering` \
-`\includegraphics[size parameters]{path\imageName.png}` \
-`\caption{Hello I am a caption}` \
+`\begin{figure}[H]`<br/>
+`\centering`<br/>
+`\includegraphics[size parameters]{path\imageName.png}`<br/>
+`\caption{Hello I am a caption}`<br/>
 `\end{figure}`
 
 ---
@@ -237,12 +237,12 @@ can easily be made to add borders and text styles.
 
 **Vertical borders**:`|` before and after each column where a border is
 required
-**Horizontal borders**: `\hline`. Must have a `\\` directly before it. \
+**Horizontal borders**: `\hline`. Must have a `\\` directly before it.<br/>
 (If you want to make a horizontal line in your document outside of
 tables you can use `\noindent\hrulefill`)
 
 ### <u>Text alignment</u>
-`\begin{tabular}{x}` \
+`\begin{tabular}{x}`<br/>
 **c** = centre\
 **r** = right\
 **l** = left\
@@ -254,10 +254,10 @@ For p, b and m a value in centimetres must also be provided.
 
 ### <u>Merging cells</u>
 
-**Columns** \
-`\multicolumn{number of columns}{alignment type}{column text}`  \
+**Columns**<br/>
+`\multicolumn{number of columns}{alignment type}{column text}`<br/>
 
-**Rows** \
+**Rows**<br/>
 `\usepackage{multirow}` **must be included first before this can be used.**
 `\multirow{number of rows}{width of row}{row text}` For the row width `*`
 can be used to just merge the rows to the size of the others.\
@@ -265,14 +265,14 @@ can be used to just merge the rows to the size of the others.\
 ### <u>Example</u>
 ![table](assets/img/table.png) 
 
-`\begin{tabular}{|c|c|c|}` \
-`\hline` \
-`\multicolumn{2}{|c|}{\textbf{Multi column}} & \textbf{Single column} \\` \
-`\hline` \
-`123 & This is a row & \multirow{3}{*}{Multi row}\\` \
-`234 & This is another row &\\` \
-`345 & And another one &\\` \
-`\hline` \
+`\begin{tabular}{|c|c|c|}`<br/>
+`\hline`<br/>
+`\multicolumn{2}{|c|}{\textbf{Multi column}} & \textbf{Single column} \\`<br/>
+`\hline`<br/>
+`123 & This is a row & \multirow{3}{*}{Multi row}\\`<br/>
+`234 & This is another row &\\`<br/>
+`345 & And another one &\\`<br/>
+`\hline`<br/>
 `\end{tabular}` 
 
 ---
@@ -281,7 +281,7 @@ can be used to just merge the rows to the size of the others.\
 
 ### <u>Code Blocks</u> 
 
-`\usepackage{minted} ` \
+`\usepackage{minted} `<br/>
 `\begin{minted}`
 `[options]{language}`
             
@@ -290,12 +290,12 @@ can be used to just merge the rows to the size of the others.\
 `\end{minted}`
 
 ### <u>Inline Code</u>
-`\mint{language}| code |` \
-**Pros** = Lots of pretty colours \
+`\mint{language}| code |`<br/>
+**Pros** = Lots of pretty colours<br/>
 **Cons** = Creates blank space on top and bottom of it
 
-`\verb+ code +` \
-**Pros** = Can be put in the middle of a sentence \
+`\verb+ code +`<br/>
+**Pros** = Can be put in the middle of a sentence<br/>
 **Cons** = No pretty colours :(
 
 ### <u>Some Options</u>
@@ -310,17 +310,17 @@ leftline, topline, bottomline and single.\
 `rulecolor= colorName`: Changes the border colour.
 
 ### <u>Changing colour scheme</u>
-`\usemintedstyle{styleName}`\
+`\usemintedstyle{styleName}`<br/>
 There are a number of different options but here are three of my
 favourite ones:
 
-**rrt**  \
+**rrt**<br/>
 ![rrt](assets/img/rrt.png)
 
-**perldoc** \
+**perldoc**<br/>
 ![perldoc](assets/img/perldoc.png)
 
-**friendly** \
+**friendly**<br/>
 ![friendly](assets/img/friendly.png)
 
 
@@ -329,11 +329,11 @@ Similar to captions on images but can also create a table
 of listings which gives the location of all of the code snippets in the
 document. Underneath your code snippet place the following:
 
-`\begin{listing}[H]` \
-`\caption{Hello}` \
-`\label{listing:number}` \
+`\begin{listing}[H]`<br/>
+`\caption{Hello}`<br/>
+`\label{listing:number}`<br/>
 `\end{listing}`
 
-To create a table of listings use this command: \
-`\renewcommand\listoflistingscaption{Title here}` \
+To create a table of listings use this command:<br/>
+`\renewcommand\listoflistingscaption{Title here}`<br/>
 `\listoflistings`
