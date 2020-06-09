@@ -14,7 +14,7 @@ tags: [Coding, LaTeX]
 `\subsection{}`<br/>
 ![Headers](/assets/img/subsubsection.png)<br/>
 `\subsubsection{}`<br/>
-![Headers](/assets/img/paragraph.png)
+![Headers](/assets/img/paragraph.png) <br/>
 `\paragraph{}`  
 
 To remove the numbers from a header use an asterisk (`\section*{}`) this
@@ -92,18 +92,18 @@ and green which don't need defined just called.
 
 ## Headers and Footers
 To change the header or footer of your document
-you first need `\usepackage{fancyhdr}`\
+you first need `\usepackage{fancyhdr}`<br/>
 Then you make the page style 'fancy' and remove the default header and
-footers:\
-`\pagestyle{fancy}`\
-`\fancypagestyle{plain}{}`\
+footers:<br/>
+`\pagestyle{fancy}`<br/>
+`\fancypagestyle{plain}{}`<br/>
 `\fancyhf{}`<br/>
 From here you can make the header and footer whatever you
-want (l= left, c= centre, r= right)\
-`\fancyfoot[l]{blah}`\
-`\fancyfoot[c]{\thepage}`\
-`\fancyfoot[r]{\today}` `\lhead{blah}`\
-`\chead{Page\thepage}`\
+want (l= left, c= centre, r= right)<br/>
+`\fancyfoot[l]{blah}`<br/>
+`\fancyfoot[c]{\thepage}`<br/>
+`\fancyfoot[r]{\today}` `\lhead{blah}`<br/>
+`\chead{Page\thepage}`<br/>
 `\rhead{\today}`<br/>
 
 `\thepage` gets the current page number and `\today`
@@ -113,18 +113,18 @@ gets the current date.
 
 ## Acronyms  
 ### <u>Defining</u>
-`\usepackage{acronym}`\
+`\usepackage{acronym}`<br/>
 `\acrodef{OS}{Operating System}`
 
 ### <u>Using in text</u>
-`\ac{OS}`\
-First use: Operating System (OS)\
+`\ac{OS}`<br/>
+First use: Operating System (OS)<br/>
 Other uses: OS 
 
-`\acf{OS}`\
+`\acf{OS}`<br/>
 Every use: Operating System (OS)
 
-`\acl{OS}`\
+`\acl{OS}`<br/>
 Every use: Operating System
 
 ### <u>Including Files</u>
@@ -153,21 +153,22 @@ folder as your main and use this command: `\include{name.tex}`
 ## Columns
 `\usepackage{multicols}`<br/>
 `\begin{multicols}{number}`<br/>
-` Stuff you want in multiple columns `<br/>
+` Stuff you want in multiple columns`<br/>
 `\end{multicols}`
 
 ---
 
 ## Table of Contents
 
-**Basic table of contents**: `\tableofcontents`\
+**Basic table of contents** <br/>
+`\tableofcontents`<br/>
 **Setting the depth of headers**: `\setcounter{tocdepth}{2}` (1= Shows
 sections only, 2= Sections and Subsections etc)
 
-**Standard table of contents**
+**Standard table of contents** <br/>
 ![fulltoc](/assets/img/fullnumbers.png)
 
-**Table of contents depth one**
+**Table of contents depth one** <br/>
 ![tocdepth1](/assets/img/halfnumbers.png)
 
 If you have chosen to remove the section numbers from your headers you
@@ -175,24 +176,24 @@ can still include them in the table of contents by writing the following
 line under the corresponding header:
 `\addcontentsline{toc}{subsubsection}{Header name}`
 
-**Un-numbered sections** 
+**Un-numbered sections**  <br/>
 ![image](/assets/img/numberless.png)
 
 ---
 
-## /assets/img  
+## Images
 **This uses the** *graphicx* **or** *graphics* **packages.**
 
 ### <u>Changing image size</u>
 This can be done using scale or giving exact width and height
-measurements.\
-`\includegraphics[scale=1.5]{image.png}`\
-`\includegraphics[scale=1.5, angle=45]{image.png}`\
-`\includegraphics[width=10cm]{image.png}`\
+measurements.<br/>
+`\includegraphics[scale=1.5]{image.png}`<br/>
+`\includegraphics[scale=1.5, angle=45]{image.png}`<br/>
+`\includegraphics[width=10cm]{image.png}`<br/>
 `\includegraphics[width=10cm, height=5cm]{image.png}`
 
 ### <u>Fixing image location</u>
-`\begin{figure}[x]`\
+`\begin{figure}[x]`<br/>
 **h** : Place image roughly in same order as it appears in source
 (sometimes LaTeX decides no and puts it somewhere else)<br/>
 **t** : Place at top of page<br/>
@@ -243,11 +244,11 @@ tables you can use `\noindent\hrulefill`)
 
 ### <u>Text alignment</u>
 `\begin{tabular}{x}`<br/>
-**c** = centre\
-**r** = right\
-**l** = left\
-**p{xcm}** = top\
-**b{xcm}** = bottom\
+**c** = centre<br/>
+**r** = right<br/>
+**l** = left<br/>
+**p{xcm}** = top<br/>
+**b{xcm}** = bottom<br/>
 **m{xcm}** = middle
 
 For p, b and m a value in centimetres must also be provided.
@@ -259,8 +260,8 @@ For p, b and m a value in centimetres must also be provided.
 
 **Rows**<br/>
 `\usepackage{multirow}` **must be included first before this can be used.**
-`\multirow{number of rows}{width of row}{row text}` For the row width `*`
-can be used to just merge the rows to the size of the others.\
+`\multirow{number of rows}{width of row}{row text}` 
+<br/>For the row width `*` can be used to just merge the rows to the size of the others.
 
 ### <u>Example</u>
 ![table](/assets/img/table.png) 
@@ -299,14 +300,14 @@ can be used to just merge the rows to the size of the others.\
 **Cons** = No pretty colours :(
 
 ### <u>Some Options</u>
-`linenos`: Numbers the lines.\
+`linenos`: Numbers the lines.<br/>
 `breaklines`: Cuts up long lines so that they don't go over the page
-width.\
+width.<br/>
 `frame= x`: Adds a border around the code snippet, x can be lines,
-leftline, topline, bottomline and single.\
-`framesep= xmm`: Padding around border.\
-`bgcolor= colourName`: Changes background colour\
-`showspaces`: Makes spaces visible\
+leftline, topline, bottomline and single.<br/>
+`framesep= xmm`: Padding around border.<br/>
+`bgcolor= colourName`: Changes background colour<br/>
+`showspaces`: Makes spaces visible<br/>
 `rulecolor= colorName`: Changes the border colour.
 
 ### <u>Changing colour scheme</u>
