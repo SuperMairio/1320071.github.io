@@ -6,6 +6,8 @@ date:   2020-06-09 16:04:51 +0100
 tags: [Coding, LaTeX]
 ---
 
+---
+
 ## Headers
 
 ![Headers](/assets/img/section.png)<br/>
