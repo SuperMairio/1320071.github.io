@@ -8,13 +8,13 @@ tags: [Coding, LaTeX]
 
 ## Headers
 
-![Headers](assets/img/section.png)<br/>
+![Headers](/assets/img/section.png)<br/>
 `\section{}`<br/>
-![Headers](assets/img/subsection.png)<br/>
+![Headers](/assets/img/subsection.png)<br/>
 `\subsection{}`<br/>
-![Headers](assets/img/subsubsection.png)<br/>
+![Headers](/assets/img/subsubsection.png)<br/>
 `\subsubsection{}`<br/>
-![Headers](assets/img/paragraph.png)
+![Headers](/assets/img/paragraph.png)
 `\paragraph{}`  
 
 To remove the numbers from a header use an asterisk (`\section*{}`) this
@@ -25,34 +25,34 @@ will also remove it from the contents page.
 ## Text Sizes
 
 
-![tiny](assets/img/tiny.png)
+![tiny](/assets/img/tiny.png)
 `\tiny{}`
 
-![scriptsize](assets/img/scriptsize.png)
+![scriptsize](/assets/img/scriptsize.png)
 `\scriptsize{}` 
 
-![footnotesize](assets/img/footnote.png)
+![footnotesize](/assets/img/footnote.png)
 `\footnotesize{}`    
 
-![small](assets/img/small.png)
+![small](/assets/img/small.png)
 `\small{}`
 
-![normal](assets/img/normal.png)
+![normal](/assets/img/normal.png)
 `\normalsize{}`
 
-![large1](assets/img/large.png)
+![large1](/assets/img/large.png)
 `\large{}`
 
-![large2](assets/img/large1.png)
+![large2](/assets/img/large1.png)
 `\Large{}`
 
-![large3](assets/img/large2.png)
+![large3](/assets/img/large2.png)
 `\LARGE{}`
 
-![huge1](assets/img/huge1.png)
+![huge1](/assets/img/huge1.png)
 `\huge{}`
 
-![huge2](assets/img/huge2.png)
+![huge2](/assets/img/huge2.png)
 `\Huge{}`
 
 ---
@@ -65,9 +65,9 @@ will also remove it from the contents page.
 
 <u>Underline</u> `\underline{}`
 
-![slanted](assets/img/slanted.png)  `\textsl{}` (Not the same as italic)
+![slanted](/assets/img/slanted.png)  `\textsl{}` (Not the same as italic)
 
-![smallcaps](assets/img/smallcaps.png) `\textsc{}`
+![smallcaps](/assets/img/smallcaps.png) `\textsc{}`
 
 Medium `\mdseries{}` (Similar to normal and useful for headers)
 
@@ -165,10 +165,10 @@ folder as your main and use this command: `\include{name.tex}`
 sections only, 2= Sections and Subsections etc)
 
 **Standard table of contents**
-![fulltoc](assets/img/fullnumbers.png)
+![fulltoc](/assets/img/fullnumbers.png)
 
 **Table of contents depth one**
-![tocdepth1](assets/img/halfnumbers.png)
+![tocdepth1](/assets/img/halfnumbers.png)
 
 If you have chosen to remove the section numbers from your headers you
 can still include them in the table of contents by writing the following
@@ -176,11 +176,11 @@ line under the corresponding header:
 `\addcontentsline{toc}{subsubsection}{Header name}`
 
 **Un-numbered sections** 
-![image](assets/img/numberless.png)
+![image](/assets/img/numberless.png)
 
 ---
 
-## assets/img  
+## /assets/img  
 **This uses the** *graphicx* **or** *graphics* **packages.**
 
 ### <u>Changing image size</u>
@@ -197,7 +197,7 @@ measurements.\
 (sometimes LaTeX decides no and puts it somewhere else)<br/>
 **t** : Place at top of page<br/>
 **b** : Place at bottom of page<br/>
-**p** : Puts on separate page for assets/img only<br/>
+**p** : Puts on separate page for /assets/img only<br/>
 **!** : Overrides what LaTeX thinks is right e.g. \[h!\] places it where you specify exactly<br/>
 **H** : Same as \[h!\] but requires the float package and I find is more precise.
 
@@ -263,7 +263,7 @@ For p, b and m a value in centimetres must also be provided.
 can be used to just merge the rows to the size of the others.\
 
 ### <u>Example</u>
-![table](assets/img/table.png) 
+![table](/assets/img/table.png) 
 
 `\begin{tabular}{|c|c|c|}`<br/>
 `\hline`<br/>
@@ -315,13 +315,13 @@ There are a number of different options but here are three of my
 favourite ones:
 
 **rrt**<br/>
-![rrt](assets/img/rrt.png)
+![rrt](/assets/img/rrt.png)
 
 **perldoc**<br/>
-![perldoc](assets/img/perldoc.png)
+![perldoc](/assets/img/perldoc.png)
 
 **friendly**<br/>
-![friendly](assets/img/friendly.png)
+![friendly](/assets/img/friendly.png)
 
 
 ### <u>Listings</u>
