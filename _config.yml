@@ -10,9 +10,9 @@ description: My personal website still a WIP
 author: Mairi McQueer
 
 # --- List of links in the navigation bar --- #
+#CV: "aboutme"
 
 navbar-links:
-  #CV: "aboutme"
   Blogs/Guides:
     - LaTeX Guide: "2020-06-09-latex-guide" 
   Github: "https://github.com/1320071"

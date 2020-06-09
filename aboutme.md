@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CV
+title: 
 subtitle: Currently a WIP
 ---
 
