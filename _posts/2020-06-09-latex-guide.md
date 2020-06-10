@@ -153,9 +153,13 @@ folder as your main and use this command: `\include{name.tex}`
 ---
 
 ## Columns
-`\usepackage{multicols}`<br/>
-`\begin{multicols}{number}`<br/>
-` Stuff you want in multiple columns`<br/>
+
+`\usepackage{multicols}`
+
+`\begin{multicols}{number}`
+
+`Stuff you want in multiple columns`
+
 `\end{multicols}`
 
 ---
@@ -200,7 +204,7 @@ measurements.<br/>
 (sometimes LaTeX decides no and puts it somewhere else)<br/>
 **t** : Place at top of page<br/>
 **b** : Place at bottom of page<br/>
-**p** : Puts on separate page for /assets/img only<br/>
+**p** : Puts on separate page for images only<br/>
 **!** : Overrides what LaTeX thinks is right e.g. \[h!\] places it where you specify exactly<br/>
 **H** : Same as \[h!\] but requires the float package and I find is more precise.
 
