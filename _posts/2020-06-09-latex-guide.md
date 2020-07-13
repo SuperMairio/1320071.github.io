@@ -177,6 +177,7 @@ folder as your main and use this command: `\include{name.tex}`
 ---
 
 ## Columns
+<<<<<<< HEAD
 <details><summary></summary>
 
 `\usepackage{multicols}`
@@ -185,6 +186,11 @@ folder as your main and use this command: `\include{name.tex}`
 
 `Stuff you want in multiple columns`
 
+=======
+`\usepackage{multicols}`<br/>
+`\begin{multicols}{number}`<br/>
+` Stuff you want in multiple columns`<br/>
+>>>>>>> parent of 34f85f9... Minor fixes and added toc images
 `\end{multicols}`
 
 </details>
@@ -236,7 +242,7 @@ measurements.<br/>
 (sometimes LaTeX decides no and puts it somewhere else)<br/>
 **t** : Place at top of page<br/>
 **b** : Place at bottom of page<br/>
-**p** : Puts on separate page for images only<br/>
+**p** : Puts on separate page for /assets/img only<br/>
 **!** : Overrides what LaTeX thinks is right e.g. \[h!\] places it where you specify exactly<br/>
 **H** : Same as \[h!\] but requires the float package and I find is more precise.
 
