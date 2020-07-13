@@ -8,7 +8,9 @@ tags: [Coding, LaTeX]
 
 ---
 
+
 ## Headers
+<details><summary></summary>
 
 ![Headers](/assets/img/section.png)<br/>
 `\section{}`<br/>
@@ -22,10 +24,12 @@ tags: [Coding, LaTeX]
 To remove the numbers from a header use an asterisk (`\section*{}`) this
 will also remove it from the contents page.
 
+</details>
+
 ---
 
 ## Text Sizes
-
+<details><summary></summary>
 
 ![tiny](/assets/img/tiny.png)
 `\tiny{}`
@@ -57,9 +61,12 @@ will also remove it from the contents page.
 ![huge2](/assets/img/huge2.png)
 `\Huge{}`
 
+</details>
+
 ---
 
 ## Text Styles
+<details><summary></summary>
 
 **Bold**  `\textbf{}`
 
@@ -73,9 +80,13 @@ will also remove it from the contents page.
 
 Medium `\mdseries{}` (Similar to normal and useful for headers)
 
+</details>
+
 ---
 
 ## Colours
+<details><summary></summary>
+
 **Remember to use the American spelling!**<br/>
 ``\usepackage[dvipsnames]{xcolor}``<br/>
 ``\definecolor{MyFavouriteColour}{RGB}{252,252,37}``
@@ -90,9 +101,13 @@ This package also has a number of predefined colours like black, pink
 and green which don't need defined just called.
 `\color{pink}`
 
+</details>
+
 ---
 
 ## Headers and Footers
+<details><summary></summary>
+
 To change the header or footer of your document
 you first need `\usepackage{fancyhdr}`<br/>
 Then you make the page style 'fancy' and remove the default header and
@@ -111,9 +126,13 @@ want (l= left, c= centre, r= right)<br/>
 `\thepage` gets the current page number and `\today`
 gets the current date.
 
+</details>
+
 ---
 
 ## Acronyms  
+<details><summary></summary>
+
 ### <u>Defining</u>
 `\usepackage{acronym}`<br/>
 `\acrodef{OS}{Operating System}`
@@ -137,9 +156,12 @@ through one massive file and just looks so much neater if you're using
 overleaf. It is also very easy to do just create your file in the same
 folder as your main and use this command: `\include{name.tex}`
 
+</details>
+
 ---
 
 ## Line Spacing
+<details><summary></summary>
 
 **New line**
 `\\` or `\smallskip` or `\newline` 
@@ -150,9 +172,12 @@ folder as your main and use this command: `\include{name.tex}`
 **New page**
 `\newpage`
 
+</details>
+
 ---
 
 ## Columns
+<details><summary></summary>
 
 `\usepackage{multicols}`
 
@@ -162,9 +187,12 @@ folder as your main and use this command: `\include{name.tex}`
 
 `\end{multicols}`
 
+</details>
+
 ---
 
 ## Table of Contents
+<details><summary></summary>
 
 **Basic table of contents** <br/>
 `\tableofcontents`<br/>
@@ -185,9 +213,13 @@ line under the corresponding header:
 **Un-numbered sections**  <br/>
 ![image](/assets/img/numberless.png)
 
+</details>
+
 ---
 
 ## Images
+<details><summary></summary>
+
 **This uses the** *graphicx* **or** *graphics* **packages.**
 
 ### <u>Changing image size</u>
@@ -226,9 +258,13 @@ update the figure number accordingly.
 `\caption{Hello I am a caption}`<br/>
 `\end{figure}`
 
+</details>
+
 ---
 
 ## Tables  
+<details><summary></summary>
+
 For tables you have three options:
 
 1.  Use the Google Sheets LaTeX plugin or other converter
@@ -282,9 +318,12 @@ For p, b and m a value in centimetres must also be provided.
 `\hline`<br/>
 `\end{tabular}` 
 
+</details>
+
 ---
 
 ## Including Code
+<details><summary></summary>
 
 ### <u>Code Blocks</u> 
 
@@ -344,3 +383,4 @@ document. Underneath your code snippet place the following:
 To create a table of listings use this command:<br/>
 `\renewcommand\listoflistingscaption{Title here}`<br/>
 `\listoflistings`
+</details>
