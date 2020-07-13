@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-markdown: CommonMarkGhPages
+
 gemspec
 
+group :jekyll_plugins do
+  gem 'jekyll-commonmark-ghpages'
+end
