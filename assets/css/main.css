@@ -374,7 +374,7 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px #fcc9e6 solid; 
+  border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: {{ site.footer-col | default: "#F5F5F5" }};
@@ -525,7 +525,7 @@ footer .footer-custom-content {
 .blog-tags a:hover {
   border-radius: 2px;
   color: { "#f96bbc"};
-  background-color: #EEEEE;
+  background-color: #EEE;
 }
 
 .post-preview .blog-tags {
@@ -620,14 +620,14 @@ footer .footer-custom-content {
   -moz-box-shadow: 1px 1px 3px #000;
 }
 .intro-header.big-img .post-heading .post-meta {
-  color:#fcc9e6;
+  color: #EEE;
 }
 .intro-header.big-img .img-desc {
   background: rgba(30, 30, 30, 0.6);
   position: absolute;
   padding: 0.3125rem 0.625rem;
   font-size: 0.6875rem;
-  color: #fcc9e6;
+  color: #EEE;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   right: 0;
   bottom: 0;
@@ -749,7 +749,7 @@ footer .footer-custom-content {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 0.625rem 0.3125rem;
-  background-color: #fcc9e6;
+  background-color: #FFF;
   border-radius: 0;
   color: #404040;
 }
@@ -760,7 +760,7 @@ footer .footer-custom-content {
 }
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
-  color: #fcc9e6;
+  color: #FFF;
   border: 1px solid {"#fcc9e6" };
   background-color: {"#f96bbc"};
 }
@@ -840,7 +840,7 @@ pre {
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
   -webkit-user-select: none;
-    -moz-user-select: none;
+     -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
