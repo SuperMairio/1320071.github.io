@@ -106,6 +106,9 @@ After asking for clarification I recieved the same email just with a very passiv
 
 <p align="center">
   <img src="/assets/img/no1.PNG" width=300 alt="First rejection email" />
+</p>
+
+<p align="center">
   <img src="/assets/img/no2.PNG" width=300 alt="Second rejection email" />
 </p>
 
@@ -117,13 +120,13 @@ As a result of them rejecting my request for API keys I am unable to test my cod
 ## References
 <details>
  <summary markdown="span"></summary>
-Crontab guru: <a href="https://crontab.guru"> https://crontab.guru </a>
+Crontab guru: <a href="https://crontab.guru"> https://crontab.guru </a> </br>
 
-Twitter Developers: <a href="https://developer.twitter.com/en">https://developer.twitter.com/en</a>
+Twitter Developers: <a href="https://developer.twitter.com/en">https://developer.twitter.com/en</a> </br>
 
-Python os documentation: <a href="https://docs.python.org/3.6/library/os.html">https://docs.python.org/3.6/library/os.html</a>
+Python os documentation: <a href="https://docs.python.org/3.6/library/os.html">https://docs.python.org/3.6/library/os.html</a> </br>
 
-Python shutil documentation: <a href="https://docs.python.org/3/library/shutil.html">https://docs.python.org/3/library/shutil.html</a>
+Python shutil documentation: <a href="https://docs.python.org/3/library/shutil.html">https://docs.python.org/3/library/shutil.html</a> </br>
 
 Twitter's rules: <a href="https://developer.twitter.com/en/developer-terms/agreement-and-policy"> Developer Agreement and Policy </a>, <a href="https://help.twitter.com/en/rules-and-policies/twitter-automation"> Automation Rules </a> & <a href="https://help.twitter.com/en/rules-and-policies/twitter-rules"> General rules</a>
 </details>
