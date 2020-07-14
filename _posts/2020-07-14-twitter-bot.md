@@ -26,7 +26,7 @@ The problem with spamming people with these photos is that I run out very quickl
 
 Since I have some experience using Twython, from ye olde days of sixth form, I first decided to try and create my bot using the Twitter API. I also love python and would rather gnaw off my own leg than use Java.
 
-The inital functionality I wanted to meet are as follows:
+The initial functionality I wanted to meet are as follows:
 
 - Send photos at regular intervals
 - Limit number of photos sent in a day
@@ -48,7 +48,7 @@ To ensure that the file holding all the API keys would not be included in my Git
 
 `git update-index --skip-worktree topsecretfile.py `  
 
-To ensure photos are sent at set intervals I orginally envisioned a script that would be running continously and using some form of counter functionallity. After actually considering the problem for more than ten seconds I realised that this would not be ideal. Instead I opted to set up a cron job to run the script at set times.
+To ensure photos are sent at set intervals I originally envisioned a script that would be running continuously and using some form of counter functionality. After actually considering the problem for more than ten seconds I realised that this would not be ideal. Instead I opted to set up a cron job to run the script at set times.
 
 The timings I eventually settled on was every to run the script on every sixth hour, (thank you <a href="https://crontab.guru/#0_*/6_*_*_*">crontab guru</a>!) the command I used is as follows:
 
@@ -56,7 +56,7 @@ The timings I eventually settled on was every to run the script on every sixth h
 
 (Before you say anything, i'm not silly enough to set up a cron job for a script that hasn't even been written. At this stage I figured out how they work and got the command ready for when the Python code was done)
 
-Using cron means that I do not have to keep a persistant connection with Twitter or have a script running constantly in the background of my computer. Another benifit to all of this is that only four images are being sent a day, which is benificial as Twitter rate limits requests via bots to avoid someone setting up a DOS attack.
+Using cron means that I do not have to keep a persistent connection with Twitter or have a script running constantly in the background of my computer. Another benefit to all of this is that only four images are being sent a day, which is beneficial as Twitter rate limits requests via bots to avoid someone setting up a DOS attack.
 
 Just after I had set-up the cron job I went onto <a href="https://developer.twitter.com/en"> Twitter's Developers page </a> to generate some API keys for my bot. Upon attempting to get these strings I discovered that since 2016 Twitter has drastically increased it's requirements for them. I had to sit and write a couple of paragraphs with why I wanted to make a bot and then send it off to them for review.
 <p align="center">
@@ -76,9 +76,9 @@ Since my Rocky photo collection is on my computer I used the python <a href="htt
   <img src="/assets/img/GetImage.PNG" alt="Screenshot of my Get_Image function" />
 </p>
 
-Although I originally planned to use one file for all of my code this changed when I decided to use a SQLite database to store the usernames. The reason I chose a database over using an array is because I wanted to create priviledge levels. These would be where certain users would also recieve aditional information such as error messages, how many photos were left etc. I also wanted to revisit my SQLite knowledge.
+Although I originally planned to use one file for all of my code this changed when I decided to use a SQLite database to store the usernames. The reason I chose a database over using an array is because I wanted to create privilege levels. These would be where certain users would also receive additional information such as error messages, how many photos were left etc. I also wanted to revisit my SQLite knowledge.
 
-The seperate .py file for my database code was because I wanted to give the user options to easily add/remove/edit data. Since the sending of photos was to be automated I didn't want to have to take a user input every six hours to check that they wanted to just send a photo.
+The separate .py file for my database code was because I wanted to give the user options to easily add/remove/edit data. Since the sending of photos was to be automated I didn't want to have to take a user input every six hours to check that they wanted to just send a photo.
 
 <p align="center">
   <img src="/assets/img/DBOptions.PNG" alt="Screenshot of my database options" />
@@ -99,11 +99,11 @@ The reason that I did not update this code or implement any functionality for th
 
 ## Twitter 
 
-A few days after sending off my application Twitter sent me an email, asking for all of the same information but now in email form. This was annoying but I was very excited about showing everyone my cutest collection of cat photos so  I wrote up and sent off another explanation of what my project was, this time including the link to my GitHub repo. A few days after that I get another email. 
+A few days after sending off my application Twitter sent me an email, asking for all of the same information but now in email form. This was annoying but I was very excited about showing everyone my cutest collection of cat photos so  I wrote up and sent off another explanation of what my project was, this time including the link to my GitHub repo. A few days after that I got another email. 
 
 RockyBot violates one or more of Twitter's rules.
 
-After asking for clarification I recieved the same email just with a very passive agressive emboldened Automation Rules link. Unfortunately I still have no clue what rules my cat photo sharing system broke and I wasn't willing to haggle my functionality with them.
+After asking for clarification I received the same email just with a very passive agressive emboldened Automation Rules link. Unfortunately I still have no clue what rules my cat photo sharing system broke and I wasn't willing to haggle my functionality with them.
 
 <p align="center">
   <img src="/assets/img/no1.PNG" alt="First rejection email" />
@@ -131,3 +131,7 @@ Python shutil documentation: <a href="https://docs.python.org/3/library/shutil.h
 
 Twitter's rules: <a href="https://developer.twitter.com/en/developer-terms/agreement-and-policy"> Developer Agreement and Policy </a>, <a href="https://help.twitter.com/en/rules-and-policies/twitter-automation"> Automation Rules </a> & <a href="https://help.twitter.com/en/rules-and-policies/twitter-rules"> General rules</a>
 </details>
+
+
+
+
