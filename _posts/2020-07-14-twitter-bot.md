@@ -105,11 +105,11 @@ RockyBot violates one or more of Twitter's rules.
 After asking for clarification I recieved the same email just with a very passive agressive emboldened Automation Rules link. Unfortunately I still have no clue what rules my cat photo sharing system broke and I wasn't willing to haggle my functionality with them.
 
 <p align="center">
-  <img src="/assets/img/no1.PNG" width=300 alt="First rejection email" />
+  <img src="/assets/img/no1.PNG" alt="First rejection email" />
 </p>
 
 <p align="center">
-  <img src="/assets/img/no2.PNG" width=300 alt="Second rejection email" />
+  <img src="/assets/img/no2.PNG" alt="Second rejection email" />
 </p>
 
 As a result of them rejecting my request for API keys I am unable to test my code and so I have no idea if it even works. If you are upset that you cannot be sent Rocky pics every six hours fret not for I have decided to move over to Discord instead and will be creating a second part blog for the adventures of RockyBot.
@@ -120,13 +120,13 @@ As a result of them rejecting my request for API keys I am unable to test my cod
 ## References
 <details>
  <summary markdown="span"></summary>
-Crontab guru: <a href="https://crontab.guru"> https://crontab.guru </a> </br>
+Crontab guru: <a href="https://crontab.guru"> https://crontab.guru </a> <br/>
 
-Twitter Developers: <a href="https://developer.twitter.com/en">https://developer.twitter.com/en</a> </br>
+Twitter Developers: <a href="https://developer.twitter.com/en">https://developer.twitter.com/en</a> <br/>
 
-Python os documentation: <a href="https://docs.python.org/3.6/library/os.html">https://docs.python.org/3.6/library/os.html</a> </br>
+Python os documentation: <a href="https://docs.python.org/3.6/library/os.html">https://docs.python.org/3.6/library/os.html</a> <br/>
 
-Python shutil documentation: <a href="https://docs.python.org/3/library/shutil.html">https://docs.python.org/3/library/shutil.html</a> </br>
+Python shutil documentation: <a href="https://docs.python.org/3/library/shutil.html">https://docs.python.org/3/library/shutil.html</a> <br/>
 
 Twitter's rules: <a href="https://developer.twitter.com/en/developer-terms/agreement-and-policy"> Developer Agreement and Policy </a>, <a href="https://help.twitter.com/en/rules-and-policies/twitter-automation"> Automation Rules </a> & <a href="https://help.twitter.com/en/rules-and-policies/twitter-rules"> General rules</a>
 </details>
