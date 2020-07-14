@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  The Adventures of RockyBot
+title:  The Adventures of RockyBot (part one)
 subtitle: I tried to make a twitter bot to send photos of my cat
 date:   2020-07-14 16:29:53 +0100
-avatar-img: /assets/img/RockyAvatar.png
+avatar: /assets/img/RockyAvatar.png
 tags: [Coding, Python]
 ---
 
 ---
 
 
-**(＾• ω •＾) All of my code for this project can be found on my github under the name <a href="https://github.com/1320071/RockyBot"> RockyBot </a> (＾• ω •＾)**
+All of my code for this project can be found on my github under the name <a href="https://github.com/1320071/RockyBot"> RockyBot </a> (＾• ω •＾)
 
 
 ## Initial plan 
@@ -24,26 +24,30 @@ After coursework had finished for the year I suddenly found myself with an abund
 The problem with spamming people with these photos is that I run out very quickly and it is not the most productive use of my time. This is where I have come up with the brilliant solution to this issue: automation. Namely in the form of a bot, where I can limit the number of photos being sent a day and practice my programming.
 
 
-Since I have some experience using Twython, from ye olde days of sixth form, I first decided to try and create my bot using the Twitter API. I also love python and would rather gnaw off my own leg than use Java.
+Twitter offers the option of creating an API using the languages Python or Java. Since I have some experience using Twython, from ye olde days of high school, I first decided to try and create my bot using that. I also love python and would rather gnaw off my own leg than use Java.
 
 The initial functionality I wanted to meet are as follows:
 
 - Send photos at regular intervals
 - Limit number of photos sent in a day
-- DM photos
+- Send photos via direct message
 - Only send photos to people in list
-- Automatically delete sent photos so they are't resent
+- Automatically delete sent photos so they aren't re-sent
 
 ---
 
 ## Set-up
 
-First I had to ensure that Twython was installed (AKA trying to use pip on windows for an hour, creating a meme then giving up and booting into linux).
+First I had to ensure dependencies were addressed. Normally this is as easy as running `pip install` but I was using Windows, which decided it didn't want to cooperate.
+So after over an hour of Stack Overflow I did as any new developer would; I made a meme then booted into Linux.
+When moving over to Linux I thought about how I would need to have my laptop on 24/7 and how impractical that would be, mainly for me trying to sleep with the fans trying to achieve mach one.
+The alternative I went for was to use a Raspberry Pi which I could leave running indefinitely and not worry about sound or anything melting through my desk.
+
 <p align="center">
   <img src="/assets/img/meme.jpg" alt="Unfunny meme about importing twython" />
 </p>
 
-Then I started on the actual Python. Originally I had envisioned myself only requiring two .py files. The first to hold the variables that contained sensitive data and the second to contain all the actual code.
+Originally I had envisioned myself only requiring two .py files. The first to hold the variables that contained sensitive data and the second to contain all the actual code.
 To ensure that the file holding all the API keys would not be included in my GitHib repo, beyond existing with example data, I used the command: 
 
 `git update-index --skip-worktree topsecretfile.py `  
@@ -131,7 +135,3 @@ Python shutil documentation: <a href="https://docs.python.org/3/library/shutil.h
 
 Twitter's rules: <a href="https://developer.twitter.com/en/developer-terms/agreement-and-policy"> Developer Agreement and Policy </a>, <a href="https://help.twitter.com/en/rules-and-policies/twitter-automation"> Automation Rules </a> & <a href="https://help.twitter.com/en/rules-and-policies/twitter-rules"> General rules</a>
 </details>
-
-
-
-
