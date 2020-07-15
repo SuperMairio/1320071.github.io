@@ -16,6 +16,6 @@ I've only been programming for ~seven years but in that time i've learnt a wide 
 </p>
 
 <p align="center">
-  <img src="assets/img/programmingline.png" alt="Expanding brain meme ranking my opinion of a number of languages and frameworks"/>
+  <img src="assets/img/programmingline.PNG" alt="Expanding brain meme ranking my opinion of a number of languages and frameworks"/>
 </p>
 
