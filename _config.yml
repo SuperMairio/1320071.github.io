@@ -16,7 +16,7 @@ navbar-links:
   Blogs/Guides:
     - LaTeX Guide: "2020-06-09-latex-guide" 
     - Twitter Bot: "2020-07-14-twitter-bot"
-  About me: "aboutme"
+  #About me: "aboutme"
   Github: "https://github.com/1320071"
   Twitter: "https://twitter.com/mairi_mcqueer"
 
