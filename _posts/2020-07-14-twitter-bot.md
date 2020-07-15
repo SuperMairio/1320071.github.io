@@ -80,18 +80,18 @@ Since my Rocky photo collection is on my computer I used the python <a href="htt
   <img src="/assets/img/GetImage.PNG" alt="Screenshot of my Get_Image function" />
 </p>
 
-Although I originally planned to use two files for all of my code this changed when I decided to use a SQLite database to store the usernames. The reason I chose a database over using an array is because I wanted to create privilege levels. These would be where certain users would also receive additional information such as error messages, how many photos were left etc. I also wanted to revisit my SQLite knowledge.
+Although I originally planned to use two files for all of my code this changed when I decided to use a SQLite database to store the usernames. The reason I chose a database over using an array is because I wanted to revisit my SQLite knowledge. I decided to also store privilege levels, alongside the usernames. These would be where certain users would also receive additional information such as error messages, how many photos were left etc. 
 
-The separate .py file for my database code was because I wanted to give the user options to easily add/remove/edit data. As the sending of photos was to be automated I didn't want to have to take a user input every six hours to check that they wanted to just send a photo. I am aware of options for this to be done via the command line but for consistency and ease I decided to create a database helper. 
+The separate .py file for my database code was because I wanted to create a database helper where the user has options to easily add/remove/edit data. As the sending of photos was to be automated I didn't want to have to take a user input every six hours to check that they wanted to just send a photo. I am aware of options for this to be done via the command line but for consistency and ease I decided to create a python script. 
 
 <p align="center">
   <img src="/assets/img/DBOptions.PNG" alt="Screenshot of my database options" />
 </p>
 
-In TwitterBot.py I store the username and privlege level in a nested list so that it's easier to return. I chose to do it this way because I like compartmentalising my code into functions in an almost object-orientated approach, I find this makes debugging easier.
+In TwitterBot.py I store the username and privlege level query results in a nested list so that it's easier to return. I chose to do it this way because I like compartmentalising my code into functions in an almost object-orientated approach. I find this makes debugging easier as if something breaks I only have to fix a function. 
 
-To send the photo I use the send_direct_message Twython function and load in the username and image. One thing I noticed when <a href="https://developer.twitter.com/en/docs/direct-messages/sending-and-receiving/guides/direct-message-migration">looking online </a>is that this feature is depricated in the current version of Twitter and an alternative method should be used. 
-Once an image is sent I use the Python <a href="https://docs.python.org/3/library/shutil.html"> shutil library </a> to move said image into the used photo folder so that I don't accidently resend it in six hours.
+To send the photo I use the send_direct_message Twython function and load in the username and image. One thing I noticed when <a href="https://developer.twitter.com/en/docs/direct-messages/sending-and-receiving/guides/direct-message-migration">looking online </a>is that this feature is depricated in the current version of Twitter and a POST method should be used instead. As will be mentioned below I did not update this line due to my project recieving an unfortunate setback. 
+Once an image is sent I use the Python <a href="https://docs.python.org/3/library/shutil.html"> shutil library </a> to move said image into the used photo folder so that I don't accidently resend it in six hours. I'm aware of the os.rename function but I decided to use shutil as it required less parameters and I didn't want to change the name of my photos.
 
 <p align="center">
   <img src="/assets/img/SendandGetPics.PNG" alt="Screenshot of my database options" />
