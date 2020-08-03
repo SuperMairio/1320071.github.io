@@ -10,6 +10,8 @@ tags: [Coding, LaTeX]
 
 
 ## Headers
+<details>
+ <summary markdown="span"></summary>
 
 ![Headers](/assets/img/section.png)<br/>
 `\section{}`<br/>
@@ -25,8 +27,11 @@ will also remove it from the contents page.
 
 ---
 
-## Text Sizes
+</details>
 
+## Text Sizes
+<details>
+ <summary markdown="span"></summary>
 
 ![tiny](/assets/img/tiny.png)
 `\tiny{}`
@@ -58,12 +63,14 @@ will also remove it from the contents page.
 ![huge2](/assets/img/huge2.png)
 `\Huge{}`
 
-
-
 ---
 
-## Text Styles
+</details>
 
+
+## Text Styles
+<details>
+ <summary markdown="span"></summary>
 
 **Bold**  `\textbf{}`
 
@@ -77,12 +84,13 @@ will also remove it from the contents page.
 
 Medium `\mdseries{}` (Similar to normal and useful for headers)
 
-
-
 ---
 
-## Colours
+</details>
 
+## Colours
+<details>
+ <summary markdown="span"></summary>
 
 **Remember to use the American spelling!**<br/>
 ``\usepackage[dvipsnames]{xcolor}``<br/>
@@ -98,12 +106,14 @@ This package also has a number of predefined colours like black, pink
 and green which don't need defined just called.
 `\color{pink}`
 
-
-
 ---
 
-## Headers and Footers
+</details>
 
+
+## Headers and Footers
+<details>
+ <summary markdown="span"></summary>
 
 To change the header or footer of your document
 you first need `\usepackage{fancyhdr}`<br/>
@@ -123,12 +133,14 @@ want (l= left, c= centre, r= right)<br/>
 `\thepage` gets the current page number and `\today`
 gets the current date.
 
-
-
 ---
 
-## Acronyms  
+</details>
 
+
+## Acronyms  
+<details>
+ <summary markdown="span"></summary>
 
 ### <u>Defining</u>
 `\usepackage{acronym}`<br/>
@@ -153,12 +165,13 @@ through one massive file and just looks so much neater if you're using
 overleaf. It is also very easy to do just create your file in the same
 folder as your main and use this command: `\include{name.tex}`
 
-
-
 ---
 
-## Line Spacing
+</details>
 
+## Line Spacing
+<details>
+ <summary markdown="span"></summary>
 
 **New line**
 `\\` or `\smallskip` or `\newline` 
@@ -169,33 +182,26 @@ folder as your main and use this command: `\include{name.tex}`
 **New page**
 `\newpage`
 
-
-
 ---
 
+</details>
+
 ## Columns
-<<<<<<< HEAD
+<details>
+ <summary markdown="span"></summary>
 
-
-`\usepackage{multicols}`
-
-`\begin{multicols}{number}`
-
-`Stuff you want in multiple columns`
-
-=======
 `\usepackage{multicols}`<br/>
 `\begin{multicols}{number}`<br/>
 ` Stuff you want in multiple columns`<br/>
->>>>>>> parent of 34f85f9... Minor fixes and added toc images
 `\end{multicols}`
-
-
 
 ---
 
-## Table of Contents
+</details>
 
+## Table of Contents
+<details>
+ <summary markdown="span"></summary>
 
 **Basic table of contents** <br/>
 `\tableofcontents`<br/>
@@ -216,12 +222,13 @@ line under the corresponding header:
 **Un-numbered sections**  <br/>
 ![image](/assets/img/numberless.png)
 
-
-
 ---
 
-## Images
+</details>
 
+## Images
+<details>
+ <summary markdown="span"></summary>
 
 **This uses the** *graphicx* **or** *graphics* **packages.**
 
@@ -261,12 +268,13 @@ update the figure number accordingly.
 `\caption{Hello I am a caption}`<br/>
 `\end{figure}`
 
-
-
 ---
 
-## Tables  
+</details>
 
+## Tables  
+<details>
+ <summary markdown="span"></summary>
 
 For tables you have three options:
 
@@ -321,12 +329,13 @@ For p, b and m a value in centimetres must also be provided.
 `\hline`<br/>
 `\end{tabular}` 
 
-
-
 ---
 
-## Including Code
+</details>
 
+## Including Code
+<details>
+ <summary markdown="span"></summary>
 
 ### <u>Code Blocks</u> 
 
@@ -386,3 +395,5 @@ document. Underneath your code snippet place the following:
 To create a table of listings use this command:<br/>
 `\renewcommand\listoflistingscaption{Title here}`<br/>
 `\listoflistings`
+
+</details>
