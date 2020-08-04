@@ -4,7 +4,7 @@ title:  The Adventures of RockyBot (part one)
 subtitle: I tried to make a twitter bot to send photos of my cat
 date:   2020-07-14 16:29:53 +0100
 avatar: /assets/img/RockyAvatar.png
-tags: [Coding, Python]
+tags: [Blog, Python]
 ---
 
 ---
