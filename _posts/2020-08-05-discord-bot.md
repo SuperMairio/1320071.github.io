@@ -8,7 +8,7 @@ tags: [Blog, Python]
 
 ---
 
-If you have read part one of the Adventures of RockyBot then you will know that I prevously attempted to make this in Twitter. Not wanting to simply give up on providing the world with photos of my cat I decided to try and make the bot on Discord instead. (Spoiler alert: it went really well)
+If you have read part one of the Adventures of RockyBot then you will know that I prevously attempted to make this in Twitter. Not wanting to simply give up on providing the world with photos of my cat I decided to try and make the bot on Discord instead. Spoiler alert: it went really well (* ^ ω ^) 
 
 ## Set-up
 
@@ -37,7 +37,8 @@ The libraries I used are; os, random, shutil and discord.
 After discovering that `from topsecretfile.py import *` does not work (Something I should have checked on my TwitterBot script...) I decided to use Linux enviromental variables instead. 
 This allows me to not include sensitive information in Git commits but still access them in my Python script.
 
-To do this I ran the command `export VARNAME=CONTENTS` in my terminal, I discovered that using `os.environ` in Python only works for as long as the script is working but using the alternative persists for as long as the terminal itself does.
+I discovered that using `os.environ` in Python only works for as long as the script is working and using `export VARNAME=CONTENTS` persists for as long as the terminal itself does.
+I didn't want to have to retype all the export commands if I accidently closed the terminal so I went into the `etc/enviroment` file and added the variables there.
 I then accessed the data using the os library.
 
 <p align="center">
@@ -45,8 +46,6 @@ I then accessed the data using the os library.
 </p> 
 
 (When trying to get a channel ID make sure you have developer mode **on** first)
-
-The functionality of this bot is slightly different to that of my original, Twitter, version.
 
 I decided that instead of sending a photo of my cat every so many hours, people on the server could instead request one whenever they wanted.
 How this works is the bot reads the messages on the channel and if a user sends one that contains a certain phrase such as "Im sad" or "I miss Rocky" the bot will then send a photo.
@@ -60,12 +59,10 @@ You may have noticed that the functions look slightly different than how I would
 Not that the case annoys me and messed with my codes feng shui or anything...
 
 As with my Twitter bot I am using the shutil library to then move the sent images into another folder, however I updated the method slightly by concatinating the file path to the file name.
-
 The `Get_Photo` function works identitcally to the one in my original Twitter bot so I won't be talking about it here. 
 
 To invite my bot to a server and to test the code works properly. This was not the most intuitive process and requires a URL, which cannot be found on the developer portal for some reason.
-`https://discord.com/oauth2/authorize?client_id=BOTID&scope=bot` the bot ID is found in the URL of the developer portal when you're on the bot tab.
-
+`https://discord.com/oauth2/authorize?client_id=BOTID&scope=bot` the bot ID is found in the application tab.
 This then took me to a page which allowed me to pick the server I wanted to add it to and after two clicks it's done!
 
 <p align="center">
@@ -100,4 +97,8 @@ If I ever do go back to it and am successful in obtaining API keys I will be sur
 Discord Developer Portal: <a href="https://discord.com/developers/applications">https://discord.com/developers/applications</a>
 <br/>
 Discord.py Documentation: <a href="https://discordpy.readthedocs.io/en/latest/index.html"> https://discordpy.readthedocs.io/en/latest/index.html </a>
+<br/>
+Linux Enviroment Variables Guide: <a href="https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/"> https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/ </a>
+<br/>
+Discord Bot Tutorial: <a href="https://www.youtube.com/watch?v=nW8c7vT6Hl4&list=PLW3GfRiBCHOhfVoiDZpSz8SM_HybXRPzZ"> https://www.youtube.com/watch?v=nW8c7vT6Hl4&list=PLW3GfRiBCHOhfVoiDZpSz8SM_HybXRPzZ </a>
  </details>
