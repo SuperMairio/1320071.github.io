@@ -8,7 +8,7 @@ tags: [Blog, Python]
 
 ---
 
-If you have read part one of the Adventures of RockyBot then you will know that I prevously attempted to make this in Twitter. Not wanting to simply give up on providing the world with photos of my cat I decided to try and make the bot on Discord instead. Spoiler alert: it went really well (* ^ ω ^) 
+If you have read part one of the Adventures of RockyBot then you will know that I prevously attempted to make this in Twitter. Not wanting to simply give up on providing the world with photos of my cat I decided to try and make the bot on Discord instead. Spoiler alert: it went really well (*^ω^) 
 
 ## Set-up
 

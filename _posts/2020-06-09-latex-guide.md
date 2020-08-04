@@ -10,8 +10,6 @@ tags: [Guide, LaTeX]
 
 
 ## Headers
-<details>
- <summary markdown="span"></summary>
 
 ![Headers](/assets/img/section.png)<br/>
 `\section{}`<br/>
@@ -27,11 +25,8 @@ will also remove it from the contents page.
 
 ---
 
-</details>
 
 ## Text Sizes
-<details>
- <summary markdown="span"></summary>
 
 ![tiny](/assets/img/tiny.png)
 `\tiny{}`
@@ -65,12 +60,8 @@ will also remove it from the contents page.
 
 ---
 
-</details>
-
 
 ## Text Styles
-<details>
- <summary markdown="span"></summary>
 
 **Bold**  `\textbf{}`
 
@@ -86,11 +77,7 @@ Medium `\mdseries{}` (Similar to normal and useful for headers)
 
 ---
 
-</details>
-
 ## Colours
-<details>
- <summary markdown="span"></summary>
 
 **Remember to use the American spelling!**<br/>
 ``\usepackage[dvipsnames]{xcolor}``<br/>
@@ -108,12 +95,8 @@ and green which don't need defined just called.
 
 ---
 
-</details>
-
 
 ## Headers and Footers
-<details>
- <summary markdown="span"></summary>
 
 To change the header or footer of your document
 you first need `\usepackage{fancyhdr}`<br/>
@@ -135,12 +118,8 @@ gets the current date.
 
 ---
 
-</details>
-
 
 ## Acronyms  
-<details>
- <summary markdown="span"></summary>
 
 ### <u>Defining</u>
 `\usepackage{acronym}`<br/>
@@ -167,11 +146,8 @@ folder as your main and use this command: `\include{name.tex}`
 
 ---
 
-</details>
 
 ## Line Spacing
-<details>
- <summary markdown="span"></summary>
 
 **New line**
 `\\` or `\smallskip` or `\newline` 
@@ -184,11 +160,7 @@ folder as your main and use this command: `\include{name.tex}`
 
 ---
 
-</details>
-
 ## Columns
-<details>
- <summary markdown="span"></summary>
 
 `\usepackage{multicols}`<br/>
 `\begin{multicols}{number}`<br/>
@@ -197,11 +169,7 @@ folder as your main and use this command: `\include{name.tex}`
 
 ---
 
-</details>
-
 ## Table of Contents
-<details>
- <summary markdown="span"></summary>
 
 **Basic table of contents** <br/>
 `\tableofcontents`<br/>
@@ -224,11 +192,7 @@ line under the corresponding header:
 
 ---
 
-</details>
-
 ## Images
-<details>
- <summary markdown="span"></summary>
 
 **This uses the** *graphicx* **or** *graphics* **packages.**
 
@@ -270,11 +234,7 @@ update the figure number accordingly.
 
 ---
 
-</details>
-
 ## Tables  
-<details>
- <summary markdown="span"></summary>
 
 For tables you have three options:
 
@@ -331,11 +291,7 @@ For p, b and m a value in centimetres must also be provided.
 
 ---
 
-</details>
-
 ## Including Code
-<details>
- <summary markdown="span"></summary>
 
 ### <u>Code Blocks</u> 
 
@@ -395,5 +351,3 @@ document. Underneath your code snippet place the following:
 To create a table of listings use this command:<br/>
 `\renewcommand\listoflistingscaption{Title here}`<br/>
 `\listoflistings`
-
-</details>
