@@ -8,7 +8,12 @@ tags: [Blog, Python]
 
 ---
 
-If you have read part one of the Adventures of RockyBot then you will know that I prevously attempted to make this in Twitter. Not wanting to simply give up on providing the world with photos of my cat I decided to try and make the bot on Discord instead. Spoiler alert: it went really well (*^ω^) 
+If you have read part one of the Adventures of RockyBot then you will know that I prevously attempted to make this in Twitter. Not wanting to simply give up on providing the world with photos of my cat I decided to try and make the bot on Discord instead. (Spoiler alert: it went really well)
+Also before we get into it heres another photo: 
+
+<p align="center">
+  <img src="../assets/img/SleepyBoi.jpg" alt="Photo of Rocky sleeping"/>
+</p> 
 
 ## Set-up
 
@@ -18,18 +23,18 @@ From here I gave the application a photo and a brief description.
 <p align="center">
   <img src="../assets/img/DiscordDesc.png" alt="Screenshot of application details"/>
 </p> 
-
+Before I get any tweets about this, yes I am aware the ID is visible and no it doesn't matter.
 To make the actual bot that I can invite to servers I went to the 'Bot' tab and pressed 'Add Bot'
 
 <p align="center">
   <img src="../assets/img/CreateBot.png" alt="Screenshot of option to add new bot"/>
 </p> 
 
-This gave me access to a bot token, required for doing anything with python, and allowed me to set the permissions required. I made sure to turn off 'PUBLIC BOT' so only I can add RockyBot to a server. I don't want him on too many servers incase there's a bug and I get 100 emails asking to fix it.
+This gave me access to a bot token, required for doing anything with python, and allowed me to set the permissions required. I made sure to turn off 'PUBLIC BOT' so only I can add RockyBot to a server. I don't want him on too many servers incase there's a bug and I get 100 emails asking to fix it. 
 
 
 Once the inital bot set-up was complete I moved on to ensuring that all the python libraries I wanted to use were installed.
-The libraries I used are; os, random, shutil and discord.
+The libraries I used are; **os, random, shutil and discord**.
 
 
 ## Programming
@@ -47,10 +52,13 @@ I then accessed the data using the os library.
 
 (When trying to get a channel ID make sure you have developer mode **on** first)
 
-I decided that instead of sending a photo of my cat every so many hours, people on the server could instead request one whenever they wanted.
+Then decided that instead of sending a photo of my cat every so many hours, people on the server could instead request one whenever they wanted.
 How this works is the bot reads the messages on the channel and if a user sends one that contains a certain phrase such as "Im sad" or "I miss Rocky" the bot will then send a photo.
 I also added some replies for the bot to send alongside the images to make it a little more wholesome.
 
+<p align="center">
+  <img src="../assets/img/MessageLists.png" alt="Screenshot of my message and reply arrays"/>
+</p> 
 <p align="center">
   <img src="../assets/img/onMessage.png" alt="Screenshot of my on_message function"/>
 </p> 
@@ -61,7 +69,7 @@ Not that the case annoys me and messed with my codes feng shui or anything...
 As with my Twitter bot I am using the shutil library to then move the sent images into another folder, however I updated the method slightly by concatinating the file path to the file name.
 The `Get_Photo` function works identitcally to the one in my original Twitter bot so I won't be talking about it here. 
 
-To invite my bot to a server and to test the code works properly. This was not the most intuitive process and requires a URL, which cannot be found on the developer portal for some reason.
+Finally, all that was left was to invite my bot to a server and test that the code works properly. This was not the most intuitive process and requires a URL, which cannot be found on the developer portal for some reason.
 `https://discord.com/oauth2/authorize?client_id=BOTID&scope=bot` the bot ID is found in the application tab.
 This then took me to a page which allowed me to pick the server I wanted to add it to and after two clicks it's done!
 
@@ -72,7 +80,7 @@ This then took me to a page which allowed me to pick the server I wanted to add 
 
 ## End result and Final Thoughts
 
-RockyBot was a huge success and my friends' reactions to the addition of it to the server was very positive.
+RockyBot was a huge success and my friends' reactions to the addition of it to our server was very positive.
 <p align="center">
   <img src="../assets/img/RockyBotWorking.png" alt="Screenshot of RockyBot working"/>
 </p>
