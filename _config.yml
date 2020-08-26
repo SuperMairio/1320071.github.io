@@ -4,7 +4,7 @@
 title: Mairi McQueer
 
 # Short description of your site
-description: My personal website (still a WIP)
+description: My personal website
 
 # Your name to show in the footer
 author: Mairi McQueer
@@ -19,8 +19,9 @@ navbar-links:
     - Discord Bot: "2020-08-05-discord-bot"
   About me: "aboutme"
   Github: "https://github.com/1320071"
-  Twitter: "https://twitter.com/mairi_mcqueer"
-
+  Twitter: 
+    - 'Professional' Account: "https://twitter.com/mairi_mcqueer"
+    - Art Account: "https://twitter.com/MaiMcQ"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
