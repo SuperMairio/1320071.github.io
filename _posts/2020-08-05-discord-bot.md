@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Adventures of RockyBot (part two)
+title:  The Adventures of RockyBot (2/3)
 subtitle: A New Hope
 date:   2020-08-05 15:38:35 +0100
 tags: [Blog, Python]

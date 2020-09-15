@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Adventures of RockyBot (part one)
+title:  The Adventures of RockyBot (1/3)
 subtitle: Who you gonna Tweet?
 date:   2020-07-14 16:29:53 +0100
 avatar: /assets/img/RockyAvatar.png
