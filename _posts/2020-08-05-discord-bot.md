@@ -110,3 +110,6 @@ Linux Enviroment Variables Guide: <a href="https://linuxize.com/post/how-to-set-
 <br/>
 Discord Bot Tutorial: <a href="https://www.youtube.com/watch?v=nW8c7vT6Hl4&list=PLW3GfRiBCHOhfVoiDZpSz8SM_HybXRPzZ"> https://www.youtube.com/watch?v=nW8c7vT6Hl4&list=PLW3GfRiBCHOhfVoiDZpSz8SM_HybXRPzZ </a>
  </details>
+
+## *Quick Update:*
+Some of the code has been updated since this blog was written so some screenshots may be different to what currently exists on my repo.

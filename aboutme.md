@@ -15,10 +15,6 @@ I've only been programming for ~seven years but in that time i've learnt a wide 
   <img src="/assets/img/programmingmeme.png" alt="Expanding brain meme ranking my confidence in a number of languages and frameworks" height="450"/>
 </p>
 
-<p align="center">
-  <img src="/assets/img/programmingline.PNG" alt="Expanding brain meme ranking my opinion of a number of languages and frameworks"/>
-</p>
-
 I'm really interested in Digital Forensics and Web App testing and would love to eventually go into forensics or incident response. 
 Outside of infosec and computing I do a lot of digital and pixel art.
 I love doing almost anything arty and crafty and am currently trying out resin moulding, with the goals of making an RFID bracelet and my own keycaps.
