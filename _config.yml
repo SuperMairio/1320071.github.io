@@ -21,10 +21,9 @@ navbar-links:
   Talks: "talks"
   Whitepapers: "Whitepaper-home"
   About me: "aboutme"
-  Github: "https://github.com/1320071"
-  Twitter: 
-    - Main Account: "https://twitter.com/mairi_mcqueer"
-    - Art Account: "https://twitter.com/MaiMcQ"
+  Social: 
+    - Twitter: "https://twitter.com/mairi_mcqueer"
+    - GitHub: "https://github.com/1320071"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
