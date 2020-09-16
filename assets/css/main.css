@@ -435,6 +435,7 @@ footer .footer-custom-content {
 .post-preview {
   padding: 1.25rem 0;
   border-bottom: 1px solid #eee;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -461,6 +462,7 @@ footer .footer-custom-content {
 .post-preview .post-title {
   font-size: 1.875rem;
   margin-top: 0;
+  text-align: center;
 }
 .post-preview .post-subtitle {
   margin: 0;
