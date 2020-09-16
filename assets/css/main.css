@@ -613,6 +613,7 @@ footer .footer-custom-content {
 }
 .intro-header .post-heading .post-subheading {
   margin-bottom: 1.25rem;
+  text-align: center;
 }
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
