@@ -1,6 +1,7 @@
 ---
 layout: page
-title:  My University Whitepapers
+title: An Analysis and Evaluation of Facial Recognition Software 
+subtitle: CMP320 Mini Project
 ---
 
 ---
