@@ -1,10 +1,10 @@
 ---
 layout: page
-title: An Analysis and Evaluation of Facial Recognition Software 
-subtitle: CMP320 Mini Project
+title: CMP320 Mini Project
+subtitle: An Analysis and Evaluation of Facial Recognition Software 
 ---
 
 ---
 
-<object data="/assets/pdfs/Hacking_3_report.pdf" type="application/pdf" typemustmatch style="height: 100%; width: 100%;">
+<object data="/assets/pdfs/Hacking_3_report.pdf" type="application/pdf" typemustmatch style="height: 750px; width: 100%;">
 </object>
