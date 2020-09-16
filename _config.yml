@@ -19,7 +19,7 @@ navbar-links:
     - Discord Bot: "2020-08-05-discord-bot"
     - Docker Blog: "2020-09-16-docker-bot"
   Talks: "talks"
-  Whitepapers: "Whitepaper-home"
+  Whitepapers: "/Whitepapers/Whitepaper-home"
   About me: "aboutme"
   Social: 
     - Twitter: "https://twitter.com/mairi_mcqueer"
