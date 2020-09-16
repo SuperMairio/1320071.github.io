@@ -615,6 +615,7 @@ footer .footer-custom-content {
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
   font-weight: 400;
+  text-align: center;
 }
 .intro-header.big-img .page-heading hr {
   box-shadow: 1px 1px 3px #000;
@@ -651,6 +652,7 @@ footer .footer-custom-content {
   }
   .intro-header .post-heading h1 {
     font-size: 3.125rem;
+    text-align: center;
   }
   .intro-header.big-img .img-desc {
     font-size: 0.875rem;
