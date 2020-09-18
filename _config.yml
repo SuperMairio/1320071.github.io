@@ -23,7 +23,7 @@ navbar-links:
   About me: "aboutme"
   Social: 
     - Twitter: "https://twitter.com/super_mairio"
-    - GitHub: "https://github.com/1320071"
+    - GitHub: "https://github.com/SuperMairio"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
@@ -44,7 +44,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  github: 1700231
+  github: SuperMairio
   twitter: super_mairio
   rss: true
 #  reddit: yourname

@@ -10,7 +10,7 @@ tags: [Blog, Python]
 ---
 
 
-All of my code for this project can be found on my github under the name <a href="https://github.com/1320071/RockyBot"> RockyBot </a> (＾• ω •＾)
+All of my code for this project can be found on my github under the name <a href="https://github.com/SuperMairio/RockyBot"> RockyBot </a> (＾• ω •＾)
 
 
 ## Initial plan 
