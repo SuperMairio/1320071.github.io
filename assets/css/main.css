@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
+  color: #efbdd9; 
 }
 h1 {
   font-size: 2.25rem;
@@ -43,7 +44,7 @@ h4 {
   font-size: 1.125rem;
 }
 a {
-  color: {{ site.link-col | default: "#7accd3" }};
+  color: #449dfc;
 } 
 a:hover,
 a:focus {
@@ -204,7 +205,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
-  color: {{ site.navbar-text-col | default: "#404040" }};
+  color: #ffffff;
 }
 
 .navbar-toggler {
@@ -272,7 +273,7 @@ img {
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   white-space: normal;
   padding: 0.625rem;
-  background-color: {{ site.navbar-col | default: "#F5F5F5" }};
+  background-color: #ffffff;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
@@ -285,7 +286,7 @@ img {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid {{ site.navbar-border-col | default: "#EAEAEA" }};
+    border: 1px solid #efbdd9;
     border-width: 0 1px 1px;
   }
 }
@@ -610,6 +611,7 @@ footer .footer-custom-content {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 0.625rem 0 0;
+  color: #dba4c3;
 }
 .intro-header .post-heading .post-subheading {
   margin-bottom: 1.25rem;
