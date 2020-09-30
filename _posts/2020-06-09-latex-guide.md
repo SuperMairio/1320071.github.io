@@ -7,7 +7,7 @@ tags: [Guide, LaTeX]
 ---
 
 ---
-
+For university whitepapers I have a template on my <a href="https://github.com/SuperMairio/Whitepaper-Template">github</a> 
 
 ## Headers
 
