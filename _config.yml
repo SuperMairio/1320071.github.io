@@ -20,7 +20,7 @@ navbar-links:
     - Docker Blog: "2020-09-16-docker-bot"
   Talks: "talks"
   Whitepapers: "/Whitepapers/Whitepaper-home"
-  About me: "aboutme"
+  CV: "aboutme"
   Social: 
     - Twitter: "https://twitter.com/super_mairio"
     - GitHub: "https://github.com/SuperMairio"
