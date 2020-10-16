@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
-  color: #efbdd9; 
+  color: #ed84bf; 
 }
 h1 {
   font-size: 2.25rem;
@@ -87,14 +87,14 @@ hr.small {
 }
 
 ::-moz-selection {
-  color: white;
+  color: black;
   text-shadow: none;
-  background-color: {{ site.hover-col | default: "#f96bbc" }};
+  background-color: #fcd1e9;
 }
 ::selection {
-  color: white;
+  color black;
   text-shadow: none;
-  background-color: {{ site.hover-col | default: "#f96bbc" }};
+  background-color: #fcd1e9;
 }
 img::selection {
   color: white;

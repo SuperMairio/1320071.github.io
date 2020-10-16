@@ -54,6 +54,7 @@ Completed eight GCSE qualifications
 |                             HTML                             |                             PHP                              |                                                              |
 |                             CSS                              |                                                              |                                                              |
 
+
 ### Software Proficiencies
 
 **Development Environments**
@@ -95,6 +96,7 @@ Completed eight GCSE qualifications
 
 ## Projects and Presentations
 
+
 <h3 align="center">
  	Penetration Tests 
 </h3>
@@ -131,11 +133,11 @@ Created using Jekyll, mainly so I could use markdown, this is my website for my 
 A mini-project for my third hacking module. This paper allowed me to delve deeper into FRS and investigate evasion techniques that can be used to fool them. I used an array of photographs with differing levels of face covering against Face++, Amazon's Rekognition and OpenCV. It was a really great experience to be able to do my own research into a topic I am very passionate about and I learnt a lot about how to conduct research, as well as time-management and self-organisation. (A+)
 
 <a href="https://supermairio.github.io/talks/">**How to Evade Facial Recognition Software (talk)** - 2019 & 2021? </a>
+Done before my mini-project but also technically will happen after as well so I put it here. I gave this short talk at my Ethical Hacking society and was accepted on the Rookie Track of BSides London. Unfortunately the conference has been cancelled but I am still looking to give it at the next one, might even apply to do a full hour talk instead. This talk focuses on the basic concept of FRS, where it's being used and how some people try and evade it.
 
 <h3 align="center">
 	Docker
 </h3>
-
 <a href="https://github.com/SuperMairio/RockyBot/tree/discord-docker"> **RockyBot** - 2020 </a>
 My coronavirus lockdown project where I created a Discord bot that sends my friends photos of my beautiful cat Rocky. Created using the Python 3 Discord library, then put in a Docker container and on AWS so I could have it running on the server 24/7. I wrote a three part blog on my progress and gave a short presentation about it to Abertay's <a href="https://twitter.com/AbertayHackers">Ethical Hacking society</a>.
 
