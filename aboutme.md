@@ -72,11 +72,11 @@ Completed eight GCSE qualifications
 
 **Tools**
 
-|  Command Line   | Debugging | Forensics |     Networking      | Steganography |    Web Application Testing     |
-| :-------------: | :-------: | :-------: | :-----------------: | :-----------: | :----------------------------: |
-|   Powershell    |  OllyDbg  | Foremost  |      Wireshark      |    S-Tools    | BurpSuite (free, I'm not rich) |
-|   Meterpreter   | Immunity  |  Autopsy  | Cisco Packet Tracer |    StegSpy    |           OWASP ZAP            |
-| John the Ripper |           |           |                     |               |                                |
+| Command Line | Debugging | Forensics |     Networking      | Steganography |    Web Application Testing     |
+| :----------: | :-------: | :-------: | :-----------------: | :-----------: | :----------------------------: |
+|  Powershell  |  OllyDbg  | Foremost  |      Wireshark      |    S-Tools    | BurpSuite (free, I'm not rich) |
+| Meterpreter  | Immunity  |  Autopsy  | Cisco Packet Tracer |    StegSpy    |           OWASP ZAP            |
+
 
 
 
