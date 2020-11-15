@@ -9,6 +9,8 @@ tags: [Guide, LaTeX]
 ---
 For university whitepapers I have a template on my <a href="https://github.com/SuperMairio/Whitepaper-Template">github</a> 
 
+Also if you want you can download a PDF version of this cheat sheet <a href="/assets/pdfs/Cheat_Sheet.pdf" download>here </a> (yes, it was made with LaTeX)
+
 ## Headers
 
 ![Headers](/assets/img/section.png)<br/>
@@ -136,7 +138,9 @@ Every use: Operating System (OS)
 `\acl{OS}`<br/>
 Every use: Operating System
 
-### <u>Including Files</u>
+---
+
+## Including Files
 **Use separate .tex files for every section!!**
 
 It makes it easier for you to find things rather than having to go
@@ -164,7 +168,7 @@ folder as your main and use this command: `\include{name.tex}`
 
 `\usepackage{multicols}`<br/>
 `\begin{multicols}{number}`<br/>
-` Stuff you want in multiple columns`<br/>
+Stuff you want in multiple columns <br/>
 `\end{multicols}`
 
 ---
@@ -173,14 +177,24 @@ folder as your main and use this command: `\include{name.tex}`
 
 **Basic table of contents** <br/>
 `\tableofcontents`<br/>
-**Setting the depth of headers**: `\setcounter{tocdepth}{2}` (1= Shows
+**Setting the depth of headers**<br/> `\setcounter{tocdepth}{2}` (1= Shows
 sections only, 2= Sections and Subsections etc)
 
 **Standard table of contents** <br/>
-![fulltoc](/assets/img/fullnumbers.png)
+
+`\tableofcontents` <br/>
+
+`\setcounter{fulltoc}`
+
+![fulltoc](/assets/img/fulltoc.png)
 
 **Table of contents depth one** <br/>
-![tocdepth1](/assets/img/halfnumbers.png)
+
+`\tableofcontents` <br/>
+
+`\setcounter{tocdepth}{1}`
+
+![tocdepth1](/assets/img/toc1.png)
 
 If you have chosen to remove the section numbers from your headers you
 can still include them in the table of contents by writing the following
@@ -188,7 +202,7 @@ line under the corresponding header:
 `\addcontentsline{toc}{subsubsection}{Header name}`
 
 **Un-numbered sections**  <br/>
-![image](/assets/img/numberless.png)
+![un-numbered](/assets/img/numberless.png)
 
 ---
 
@@ -216,7 +230,7 @@ measurements.<br/>
 
 ### <u>Captions and labels</u>
 `\caption{caption text}`<br/>
-Captions label imagesand automatically increment figure number so you don't have to. To make sure you always reference the correct figure use labels, in the figure tags include the line
+Captions label images and automatically increment figure number so you don't have to. To make sure you always reference the correct figure use labels, in the figure tags include the line <br/>
 `\label{fig:short snappy name}`.<br/>
 Then you can call in inline using
 `\pageref{fig:short snappy name}` and if you add/delete images it will
