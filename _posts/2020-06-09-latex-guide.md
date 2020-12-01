@@ -274,11 +274,19 @@ tables you can use `\noindent\hrulefill`)
 **c** = centre<br/>
 **r** = right<br/>
 **l** = left<br/>
+
+
+### <u>Defining column size</u>
 **p{xcm}** = top<br/>
 **b{xcm}** = bottom<br/>
 **m{xcm}** = middle
+A value in centimetres must also be provided.
 
-For p, b and m a value in centimetres must also be provided.
+Without defining any column sizes
+![longtable](/assets/img/longtable.PNG) 
+
+`|c|p{10cm}|`
+![nicetable](/assets/img/nicetable.PNG) 
 
 ### <u>Merging cells</u>
 
