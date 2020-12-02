@@ -135,7 +135,7 @@ A group project as a part of my second year, the task is to create a Scottish co
 <h3>
  	Web Applications
 </h3>
-**Virtual Malware Analyser (ViMA)** - 2020
+**Visual Malware Analyser (ViMA)** - 2020
 Another group project, done over two terms this time. For this one a web application to demonstrate the propagation of a worm through a network was created. The goal was to create a visualiser of the malware in order to act as an education tool. As such the webpage was made to be interactive and the 'worm' harmless to the network. The three main components consisted of; a Django and JavaScript visualiser that used the REST framework, a harmless worm that used Python 3 to propagate through a network using SSH and an 'anti-worm' that removed the original infection. This again helped to build up my soft skills, especially in communication. (A)
 
 <a href="https://github.com/SuperMairio/SuperMairio.github.io"> **Blog** - 2020 </a>
