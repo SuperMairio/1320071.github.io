@@ -52,12 +52,51 @@ Completed eight GCSE qualifications
 |  <a href="https://github.com/SuperMairio/HolyShip">Java</a>  |                          Arduino C                           | <a href="https://supermairio.github.io/Whitepapers/ExploitTutorial/">Perl</a> |
 | <a href="https://github.com/SuperMairio/Mandelbrot">C++</a>  |                          JavaScript                          |                            Swift                             |
 |                             HTML                             |                             PHP                              |                                                              |
-|                             CSS                              |                                                              |                                                              |
+|                             CSS                              |                          Powershell                          |                                                              |
+|                             Bash                             |                                                              |                                                              |
 
 
 ### Software Proficiencies
+#### Tools
+Command Line
+- Meterpreter
+- Bash 
+- Powershell
 
-**Development Environments**
+Debugging
+- OllyDbg
+- Immunity
+
+Forensics
+- Foremost
+- Autopsy
+
+Networking
+- Wireshark
+- Cisco Packet Tracer
+- TCP Dump
+
+Steganography
+- S-Tools
+- StegSpy
+
+Web Application Testing
+- BurpSuite (free, i'm not rich)
+- OWASP ZAP
+
+
+#### Operating Systems
+
+- Windows (XP, Vista, 7, 8 and 10)
+- Linux
+  - Ubuntu (>16.04)
+  - Manjaro XFCE and KDE (18.1.1)
+  - Fedora Gnome and XFCE ❤ (30) 
+  - Kali (> 2019)
+- MacOS (> 16.10)
+
+
+#### Development Environments
 
 - Brackets ❤
 - Arduino IDE
@@ -69,35 +108,12 @@ Completed eight GCSE qualifications
 - PyCharm
 
 
-
-**Tools**
-
-| Command Line | Debugging | Forensics |     Networking      | Steganography |    Web Application Testing     |
-| :----------: | :-------: | :-------: | :-----------------: | :-----------: | :----------------------------: |
-|  Powershell  |  OllyDbg  | Foremost  |      Wireshark      |    S-Tools    | BurpSuite (free, I'm not rich) |
-| Meterpreter  | Immunity  |  Autopsy  | Cisco Packet Tracer |    StegSpy    |           OWASP ZAP            |
-
-
-
-
-**Operating Systems**
-
-- Windows (XP, Vista, 7, 8 and 10)
-- Linux
-  - Ubuntu (>16.04)
-  - Manjaro XFCE and KDE (18.1.1)
-  - Fedora Gnome and XFCE ❤ (30) 
-  - Kali (> 2019)
-- MacOS (> 16.10)
-
-
-
 ---
 
 ## Projects and Presentations
 
 
-<h3 align="center">
+<h3>
  	Penetration Tests 
 </h3>
 <a href="https://supermairio.github.io/Whitepapers/Hacking1/">**Penetration Test on Virtual Machine Network** - 2018</a> 
@@ -110,13 +126,13 @@ As a part of my second Networking module I was provided with a server and a Kali
 This project required me to perform an investigation on the security of a web application and create a report on my findings. Much like the other penetration tests I have done, this was focused on providing vulnerability proof of concepts and security recommendations for the 'client'. For this I learnt BurpSuite, ZAP and better improved my Linux command knowledge. Some of the vulnerabilities tested for and exploited were; SQL injection, XSS, CSRF and file inclusion. (A)
 
 
-<h3 align="center">
+<h3>
  	Digital Forensics
 </h3>
 **‘John Doe’ Forensic Analysis** - 2019
 A group project as a part of my second year, the task is to create a Scottish court report of evidence gathered from a hard disk drive belonging to an accused ‘bird watcher’. The methodology involved using Sleuthkit, TestDisk and MetCam, as well as basic prefetch, registry and browser analysis. This has given me an understanding of a larger array of Linux command line and digital forensic tools. This is also where I learnt LaTeX. The investigation also gave me more experience on how to organise and work within a group. (A)
 
-<h3 align="center">
+<h3>
  	Web Applications
 </h3>
 **Virtual Malware Analyser (ViMA)** - 2020
@@ -125,7 +141,7 @@ Another group project, done over two terms this time. For this one a web applica
 <a href="https://github.com/SuperMairio/SuperMairio.github.io"> **Blog** - 2020 </a>
 Created using Jekyll, mainly so I could use markdown, this is my website for my blog posts, programming notes and CV. Over the summer of 2020 I spent a lot of time working on the RockyBot saga and improving the CSS of my website. This is still a work in progress but I love where it is now.
 
-<h3 align="center">
+<h3>
 	Facial Recognition Software
 </h3>
 
@@ -135,7 +151,7 @@ A mini-project for my third hacking module. This paper allowed me to delve deepe
 <a href="https://supermairio.github.io/talks/">**How to Evade Facial Recognition Software (talk)** - 2019 & 2021? </a>
 Done before my mini-project but also technically will happen after as well so I put it here. I gave this short talk at my Ethical Hacking society and was accepted on the Rookie Track of BSides London. Unfortunately the conference has been cancelled but I am still looking to give it at the next one, might even apply to do a full hour talk instead. This talk focuses on the basic concept of FRS, where it's being used and how some people try and evade it.
 
-<h3 align="center">
+<h3>
 	Docker
 </h3>
 <a href="https://github.com/SuperMairio/RockyBot/tree/discord-docker"> **RockyBot** - 2020 </a>
@@ -144,7 +160,7 @@ My coronavirus lockdown project where I created a Discord bot that sends my frie
 **Escaping from a Virtualised Environment: An Evaluation of Container Breakout Techniques** - 2020 (ongoing)
 This is my honours project. My goal with this is to investigate container-based virtualisation and the ease-of-exploitation of breakout techniques. For this I will be using Docker and looking into disabling namespacing, changing AppArmour profiles and exploiting CVEs. I also want to look into security measures that can be taken to prevent an attacker from breaking out of a container and into your host OS. 
 
-<h3 align="center">
+<h3>
 	Other
 </h3>
 
