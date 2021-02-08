@@ -99,6 +99,14 @@ document.addEventListener('turbolinks:load', themeChange);
 function themeChange(){
     // Select our toggle button
     let button = document.querySelector('.theme-toggle');
+    
+    // Adds the 'transition' class to <html> for CSS fun
+    let transition = () =>{
+      document.documentElement.classList.add('transition');
+      window.setTimeout(()=>{
+          document.documentElement.classList.remove('transition');
+      }, 1000);
+    }
 
     // Add an event listener for a click
     button.addEventListener('click', function(e){
@@ -113,13 +121,6 @@ function themeChange(){
         }
     });
 
-    // Adds the 'transition' class to <html> for CSS fun
-    let transition = () =>{
-        document.documentElement.classList.add('transition');
-        window.setTimeout(()=>{
-            document.documentElement.classList.remove('transition');
-        }, 1000);
-    }
 }
 
 
