@@ -947,3 +947,11 @@ pre {
   font-style: italic;
   font-size: 1rem;
 }
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+    transition: all 650ms !important;
+    transition-delay: 0 !important;
+}
