@@ -24,6 +24,9 @@ navbar-links:
   Social: 
     - Twitter: "https://twitter.com/super_mairio"
     - GitHub: "https://github.com/SuperMairio"
+  
+    <button class="theme-toggle">Toggle Dark Mode</button>
+
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
