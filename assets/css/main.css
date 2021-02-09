@@ -13,7 +13,7 @@ html[data-theme=pastelPink] {
   --bg2: #fcd1e9;
   --h: #ed84bf; 
   --link: #449dfc;
-  --hover: #f96bbc;
+  --hover: #d85fa2;
   --bquote: #808080;
   --border: #fcc9e6;
   --highlightTxt: #d85fa2;
@@ -957,4 +957,9 @@ html.transition *:before,
 html.transition *:after {
     transition: all 650ms !important;
     transition-delay: 0 !important;
+}
+
+#theme-toggle{
+  background-color: var(--bg);
+  color: var(--txtColour);
 }
