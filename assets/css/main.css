@@ -167,6 +167,7 @@ img {
   padding-top: 0;
   padding-bottom: 0;
   background: var(--bg2) ;
+  color: var(--txtColour);
 }
 
 .navbar-custom .navbar-brand {
@@ -240,7 +241,7 @@ img {
 }
 
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--txtColour);
 }
 
 .dropdown-toggle::after {

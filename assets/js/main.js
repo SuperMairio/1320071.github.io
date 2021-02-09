@@ -120,7 +120,6 @@ function themeChange(){
             document.documentElement.setAttribute('data-theme','pastelPink');
         }
     });
-    return "job done";
 
 }
 
