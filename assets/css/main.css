@@ -26,7 +26,7 @@ html[data-theme=cyberPunk]{
   --bg2: #091833; /*navbar*/
   --h: #f7cd01; 
   --link: #ff2e97;
-  --hover: #f96bbc;
+  --hover: #310072;
   --bquote: #0ef3ff; /*dates/subheadings*/
   --border: #ff2e97;
   --highlightTxt: #0ef3ff;
@@ -111,19 +111,19 @@ hr.small {
 ::-moz-selection {
   color: var(--highlightTxt);
   text-shadow: none;
-  background-color: var(--bg2);
+  background-color: var(--hover);
 }
 ::selection {
   color: var(--highlightTxt);
   text-shadow: none;
-  background-color: var(--bg2);
+  background-color: var(--hover);
 }
 img::selection {
   color: var(--bg);
   background: transparent;
 }
 img::-moz-selection {
-  color: var(--bg);
+  color: var(--hover);
   background: transparent;
 }
 
@@ -328,7 +328,7 @@ img {
   }
 
   .navbar-custom .nav-item.dropdown.show {
-    background: rgba(0, 0, 0, 0.2);
+    background:var(--bg2);
   }
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
@@ -399,10 +399,10 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px #EAEAEA solid;
+  border-top: 1px var(--bg) solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: {{ site.footer-col | default: "#F5F5F5" }};
+  background-color:  var(--bg2);
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
@@ -410,11 +410,11 @@ footer {
 }
 
 footer p.text-muted {
-  color: {"#d9a9e5"} !important;
+  color: var(--txtColour) !important;
 }
 
 footer a {
-  color: {"#c086ce"};
+  color: var(--txtColour);
 }
 
 footer .list-inline {
@@ -538,7 +538,7 @@ footer .footer-custom-content {
 
 .blog-tags {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #999;
+  color:var(--bquote);
   font-size: 0.9375rem;
   margin-bottom: 1.875rem;
 }
@@ -653,7 +653,7 @@ footer .footer-custom-content {
   color: var(--bg);
 }
 .intro-header.big-img .img-desc {
-  background: rgba(30, 30, 30, 0.6);
+  background: var(--bg);
   position: absolute;
   padding: 0.3125rem 0.625rem;
   font-size: 0.6875rem;
@@ -691,7 +691,6 @@ footer .footer-custom-content {
   background-color: var(--border);
   margin: 0 0 2.5rem;
   padding: 1.25rem 0;
-  box-shadow: 0 0 0.3125rem #AAA;
 }
 /* Many phones are 320 or 360px, so make sure images are a proper aspect ratio in those cases */
 .header-section.has-img .intro-header.no-img {
