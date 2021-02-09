@@ -231,13 +231,16 @@ img {
   color: var(--txtColour);
 }
 
-.navbar-toggler {
+.navbar-toggler,
+.theme-toggle{
   font-size: 1rem;
   margin: 0.5rem 0;
 }
 .navbar-custom .navbar-toggler:focus,
-.navbar-custom .navbar-toggler:hover {
-  background-color: initial;
+.navbar-custom .navbar-toggler:hover,
+.theme-toggle:focus,
+.theme-toggle:hover {
+  background-color: var(--bg2);
 }
 
 .navbar-custom .navbar-toggler[aria-expanded="true"] {
@@ -276,12 +279,12 @@ img {
 
 @media (min-width: 768px) {
   .navbar-custom .nav-item.dropdown:hover {
-    background: rgba(0, 0, 0, 0.1);
+    background: var(--bg);
   }
 }
 
 .navbar-custom .nav-item.dropdown.show {
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--bg);
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu {
@@ -296,7 +299,7 @@ img {
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   var(--bg)-space: normal;
   padding: 0.625rem;
-  background-color: var(--bg);
+  background-color: var(--border);
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
@@ -309,7 +312,7 @@ img {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid var(--border);
+    border: 1px solid var(--bg2);
     border-width: 0 1px 1px;
   }
 }
