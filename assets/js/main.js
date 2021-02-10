@@ -112,7 +112,7 @@ function themeChange(){
     button.addEventListener('click', function(e){
         // Check the current data-theme value
         let currentTheme = document.documentElement.getAttribute('data-theme');
-        if(currentTheme === 'pastelPink') {
+        if(currentTheme === 'pastelPink' || null) {
             transition();
             document.documentElement.setAttribute('data-theme', 'cyberPunk');
         } else {
