@@ -43,15 +43,18 @@ Completed eight GCSE qualifications
 
 [//]: # (<p align="center"> <img src="/assets/img/programmingline.PNG"  alt="List of languages and frameworks I know ordered by how much I like them"/> </p>)
 
-|                     Fairly confident in                      |                     Worked with briefly                      |                      Know the basics of                      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <a href="https://github.com/SuperMairio/RockyBot">Python 3</a> ❤ | Powershell| <a href="https://supermairio.github.io/Whitepapers/ExploitTutorial/">Assembly</a> |
-|                            SQL ❤                             | <a href="https://github.com/SuperMairio/SuperMairio.github.io">Jekyll</a> |                      Django (and REST)                       |
-|  <a href="https://github.com/SuperMairio/HolyShip">Java</a>  |                          Arduino C                           | <a href="https://supermairio.github.io/Whitepapers/ExploitTutorial/">Perl</a> |
-| <a href="https://github.com/SuperMairio/Mandelbrot">C++</a>  |                          JavaScript                          |                            Swift                             ||                             HTML                             |                             PHP                              |                                                              |
-|                             CSS                              |        Flask                                            |                                                        C      |
-|                             Bash                             |                                                              |                                                             KML |
+| Fairly Confident in | Worked with | Know the basics of |
+|---------------------|-------------|--------------------|
+| <a href="https://github.com/SuperMairio/RockyBot">Python 3</a>          | Powershell  | <a href="https://supermairio.github.io/Whitepapers/ExploitTutorial/">Assembly</a>            |
+| SQLite/Postgresql/mySQL ❤               | <a href="https://github.com/SuperMairio/SuperMairio.github.io">Jekyll</a>      | PHP                |
+| <a href="https://github.com/SuperMairio/HolyShip">Java</a>                | Arduino C   | Django (and REST)  |
+| <a href="https://github.com/SuperMairio/Mandelbrot">C++</a>                | JavaScript  | <a href="https://supermairio.github.io/Whitepapers/ExploitTutorial/">Perl</a>               |
+| CSS                 | <a href="https://github.com/SuperMairio/Pi-Quiz">Flask</a>        | Swift              |
+| Bash                | HTML        | C                  |
+|                     |             | KML                |
 
+
+                       
 
 ### Software Proficiencies
 
