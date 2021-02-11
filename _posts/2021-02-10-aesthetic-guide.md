@@ -2,7 +2,7 @@
 layout: post
 title: How to Make Linux Look Amazing
 subtitle: Guide for making your PC look as cool as mine
-date:   2021-02-10 21:18:21 +0100
+date:   2021-02-11 21:18:21 +0100
 avatar: /assets/img/RockyAvatar.png
 tags: [Guide]
 ---
@@ -91,7 +91,7 @@ If you want to see what all the terminal colours mean I would recomend using one
 </p> 
     Style: <a href="https://www.gnome-look.org/p/1380461/"> Adwaita Shell</a> <br/>
     Window Manager: <a href="https://www.gnome-look.org/p/1304241/"> Bazik Light </a> <br/>
-    Icons:<a href="https://www.gnome-look.org/p/1345846/">Breeze Honey Light</a> <br/>
+    Icons: <a href="https://www.gnome-look.org/p/1345846/">Breeze Honey Light</a> <br/>
     Cursor: <a href="https://www.gnome-look.org/p/1360254/">Oreo Pink Cursor</a><br/>
 
 </details>
