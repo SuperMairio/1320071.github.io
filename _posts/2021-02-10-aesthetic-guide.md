@@ -19,7 +19,7 @@ Next follow these steps and customise your heart out! (CPU and OS permitting)
 
 ---
 
-## Linux
+## Getting Themes and Icons
 Note: I use Fedora so other Linux distros may have different file paths or required steps
 
 The easiest way to change up your desktop (aside from just changing the wallpaper) is to download a theme.
@@ -48,11 +48,9 @@ The next steps and further customisations vary depending on your desktop envirom
   <summary markdown="span"></summary>
   <p align="center">
   <img src="../assets/img/Laptop.png" alt="Screenshot of my cyberpunk aesthetic on my laptop"/></p> 
-    Theme: <a href="https://www.gnome-look.org/p/1314525/"> Punk Sweet</a> </br>
-    Icons:<a href="https://www.gnome-look.org/p/1305251/">Candy Icons</a> </br>
-    Cursor: <a href="https://www.gnome-look.org/p/1365214/">Layan White Cursors</a></br>
-
----
+    Theme: <a href="https://www.gnome-look.org/p/1314525/"> Punk Sweet</a> <br/>
+    Icons:<a href="https://www.gnome-look.org/p/1305251/">Candy Icons</a> <br/>
+    Cursor: <a href="https://www.gnome-look.org/p/1365214/">Layan White Cursors</a><br/>
 
 </details>
 
@@ -63,7 +61,7 @@ After downloading and placing your theme/icon/cursor files in the correct folder
 
 ### GNOME shell extentions
 
-Want even **more** customisation? Hate that pesky grey top bar? Want a blue light filter? Fret not for <a href="https://extensions.gnome.org/#">GNOME shell extentions</a> has the answer to all of your prayers.
+Want even **more** customisation? Hate that pesky grey top bar? Want a blue light filter? Fret not for <a href="https://extensions.gnome.org/#">GNOME shell extentions</a> has the answer to all of your prayers!
 I personally really like jpec's <a href="https://extensions.gnome.org/extension/1264/gradient-top-bar/"> Gradient top bar</a>, TimurKiyivinski's <a href="https://extensions.gnome.org/extension/1276/night-light-slider/"> Night light slider </a> and michele_g's <a href="https://extensions.gnome.org/extension/307/dash-to-dock/"> Dash to dock</a> extentions. I feel they really add a je ne sais quoi to my laptop.
 
 Make sure you keep your extentions updated and like the themes, you check the reviews in case there are any major issues with the extention.
@@ -75,7 +73,7 @@ Also **DO NOT** enable the Fedora Background Logo unless you want your computer 
 Now your desktop is looking beautiful it's time to change your terminal to match.
 This is very simple; go to your terminal>Preferences, create a new profle and go ham.
 I would recomend using a colour picker to get colours from your theme and implementing them into your terminal rather than using a preset terminal theme. I prefer having more control over my colour scheme.
-A good tool is <a href="https://extensions.GNOME.org/extension/3396/color-picker/"> grroot's color picker </a>.
+A good tool is <a href="https://extensions.GNOME.org/extension/3396/color-picker/"> grroot's color picker</a>.
 
 If you want to see what all the terminal colours mean I would recomend using one of the bash scripts written in the answers of this <a href="https://askubuntu.com/questions/17299/what-do-the-different-colors-mean-in-ls">Ask Ubuntu forum</a> or make your own.
 
@@ -91,12 +89,10 @@ If you want to see what all the terminal colours mean I would recomend using one
   <p align="center">
   <img src="../assets/img/laptop2.png" alt="Screenshot of my pastel pink aesthetic on my laptop"/>
 </p> 
-    Style: <a href="https://www.gnome-look.org/p/1380461/"> Adwaita Shell</a> </br>
-    Window Manager: <a href="https://www.gnome-look.org/p/1304241/"> Bazik Light </a> </br>
-    Icons:<a href="https://www.gnome-look.org/p/1345846/">Breeze Honey Light</a> </br>
-    Cursor: <a href="https://www.gnome-look.org/p/1360254/">Oreo Pink Cursor</a></br>
-
----
+    Style: <a href="https://www.gnome-look.org/p/1380461/"> Adwaita Shell</a> <br/>
+    Window Manager: <a href="https://www.gnome-look.org/p/1304241/"> Bazik Light </a> <br/>
+    Icons:<a href="https://www.gnome-look.org/p/1345846/">Breeze Honey Light</a> <br/>
+    Cursor: <a href="https://www.gnome-look.org/p/1360254/">Oreo Pink Cursor</a><br/>
 
 </details>
 
@@ -111,9 +107,11 @@ However to change the windows changing the 'style' is not enough you have to go 
   <img src="../assets/img/windowsmanager.png" alt="Screenshot of XFCE Windows Manager settings"/> 
 </p> 
 
+For the terminal, it's very similar to GNOME, open the terminal go to Edit>Preferences and have fun messing about with all the colour/opacity/font options! I enjoy selecting the option to vary the background of each tab. Pretty rainbow terminals help me remember what each tab does and why I have it open because I am terrible for closing tabs I need.
 ### XFCE Panel
 
 Unlike GNOME the XFCE top bar is very customisable by default. Simply right-click and go to Panel>Panel Preferences to edit it.
+You can download more items for the panel at <a href="https://goodies.xfce.org/"> goodies.xfce.org</a>, although there isn't nearly the selection that GNOME Tweaks offers.
 
 If you don't like the stewart little chilling in the corner you can change the icon and name of your application menu by selecting it in Items and clicking edit in the left hand side, fifth icon down.
 Mine has been changed to a star icon and a Kamoji because I think it's cute.
@@ -128,8 +126,9 @@ A bit of advice: add spacers between items to keep things to the far left/right 
 ## References 
 <details>
  <summary markdown="span"></summary>
-  Linux themes/icon packs: <a href="https://www.GNOME-look.org/browse/cat/"> https://www.GNOME-look.org/browse/cat/ </a> </br>
-  Terminal colour viewer bash scripts: <a href="https://askubuntu.com/questions/17299/what-do-the-different-colors-mean-in-ls">https://askubuntu.com/questions/17299/what-do-the-different-colors-mean-in-ls</a> </br>
+  Linux themes/icon packs: <a href="https://www.GNOME-look.org/browse/cat/"> https://www.GNOME-look.org/browse/cat/ </a> <br/>
+  GNOME Shell Extentions: <a href="https://extensions.gnome.org/#">https://extensions.gnome.org/#</a><br/>
+  Terminal colour viewer bash scripts: <a href="https://askubuntu.com/questions/17299/what-do-the-different-colors-mean-in-ls">https://askubuntu.com/questions/17299/what-do-the-different-colors-mean-in-ls</a> <br/>
   XFCE plugins: <a href="https://goodies.xfce.org/">https://goodies.xfce.org/</a>
 
  </details>
