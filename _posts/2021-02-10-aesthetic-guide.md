@@ -9,13 +9,28 @@ tags: [Guide]
 
 ---
 
+## Whats in this guide?
+
+- Where to get themes and icons
+  - How to install them
+- GNOME
+  - Setting themes and icons 
+  - Shell Extentions
+  - Terminal customisation
+  - Emojis 😃 
+- XFCE
+  - Setting themes, icons and windows managers
+  - Top bar Customisation
+
+---
+
 I am very fussy with how my OS looks, hence why I favour Linux, and I have spent hours making sure it looks as beautiful as possible. This guide is an excuse for me to write down my steps so when my OS/Laptop/PC breaks (rip Manjaro) I can quickly and easily restore it to it's fabulous self.
 Since I use Linux and Windows these guides go through my methodology for both, sorry Mac users but I have no clue. If someone wants to buy me a Macbook i'll be happy to investigate however.
 
 
 First things first; Decide on the aesthetic you are looking for. In my case I am currently obsessed with the neon cyberpunk/vaporwave look. Although previously I have rocked the pastel pink hyper femme look, just look at my website themes to get a glimpse of my colour pallete journey.
 
-Next follow these steps and customise your heart out! (CPU and OS permitting)
+Next follow these steps and customise your heart out!
 
 ---
 
@@ -42,7 +57,7 @@ The next steps and further customisations vary depending on your desktop envirom
 
 ---
 
-### GNOME
+## GNOME
 **My laptop theme**
 <details>
   <summary markdown="span"></summary>
@@ -80,9 +95,25 @@ If you want to see what all the terminal colours mean I would recomend using one
 <p align="center">
   <img src="../assets/img/terminal.png" alt="Screenshot of my terminal colours"/> </p>
 
+### Emojis 
+What better way to add some pizzaz to your writing experience than add an emoji keyboard? I haven't tried this in XFCE so not sure if it works there too but it is a lot of fun in GNOME.
+
+First go to your terminal and enter `sudo dnf install google-noto-emoji-fonts` (replace dnf install with your package manager). Then go to Settings>Region and Language, press the small plus at the bottom of input sources, select Other(Typing Booster) and click add.
+
+<p align="center">
+  <img src="../assets/img/changelanguage.png" alt="Screenshot of adding Other(Typing Booster) keyboard in settings"/>
+</p> 
+Then click the cog symbol besides that keyboard, go to Options and make sure 'Unicode symbols and emoji predictions' is ticked. 
+To swap keyboards press `super` + `spacebar`.
+Now go to any where that lets you type unicode characters, like your terminal, and try it out!
+
+<p align="center">
+  <img src="../assets/img/emojis.png" alt="Screenshot of my terminal with five emojis written in it"/>
+</p> 
+
 ---
 
-### XFCE
+## XFCE
 **My laptop theme** (same laptop, I just have both desktop environments for no reason)
 <details>
   <summary markdown="span"></summary>
@@ -114,7 +145,7 @@ Unlike GNOME the XFCE top bar is very customisable by default. Simply right-clic
 You can download more items for the panel at <a href="https://goodies.xfce.org/"> goodies.xfce.org</a>, although there isn't nearly the selection that GNOME Tweaks offers.
 
 If you don't like the stewart little chilling in the corner you can change the icon and name of your application menu by selecting it in Items and clicking edit in the left hand side, fifth icon down.
-Mine has been changed to a star icon and a Kamoji because I think it's cute.
+Mine has been changed to a star icon and a Kaomoji because I think it's cute.
 
 <p align="center">
   <img src="../assets/img/appmenu.png" alt="Screenshot of XFCE Panel>Items>Applications Menu"/> 
@@ -123,6 +154,8 @@ Mine has been changed to a star icon and a Kamoji because I think it's cute.
 A bit of advice: add spacers between items to keep things to the far left/right of the bar or everything will smoosh to the left.
 
 ---
+
+
 ## References 
 <details>
  <summary markdown="span"></summary>
