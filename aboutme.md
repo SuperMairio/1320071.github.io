@@ -26,14 +26,13 @@ Completed eight GCSE qualifications
 
 ## About me
 
-4th year BSc(Hons) Ethical Hacking at Abertay University and currently the president of the <a href="https://twitter.com/abertayfemsoc">Feminist society</a>. Outside of university I love art, Python 3 and my very fat cat. When I'm not attending Rocky I spend my free time doing small coding projects, drawing and making resin dice. I also really enjoy going to InfoSec conferences/CTFs/events (when there's not a global pandemic on) and I have been to; Cyber Re:coded 2018, BSides Glasgow 2018, the Scottish Universities Cyber Challenge 2019, Le Tour De Hack 2019, BSides Scotland 2019, BSides London 2019. I have also volunteered at Securi-tay 2018 and 2019 as well as BSides Manchester 2019.
+4th year BSc(Hons) Ethical Hacking at Abertay University and currently the president of the <a href="https://twitter.com/abertayfemsoc">Feminist society</a>. Outside of university I love art, Python 3 and my very fat cat. When I'm not attending Rocky I spend my free time doing small coding projects, drawing and making resin dice. I also really enjoy going to InfoSec conferences/CTFs/events (when there's not a global pandemic on) and I have been to; Cyber Re:coded 2018, BSides Glasgow 2018, the Scottish Universities Cyber Challenge 2019, Le Tour De Hack 2019, BSides Scotland 2019, BSides London 2019. I have also volunteered at Securi-tay 2018 and 2019 as well as BSides Manchester 2019 and LTDH 2019.
 
 #### Fun facts
 
 - Can eat any food with chopsticks (apart from soup but I will give it a go) 
 - Unashamed light mode user 
 - Know a slightly concerning amount of Star Wars trivia
-
 
 ---
 
@@ -53,12 +52,9 @@ Completed eight GCSE qualifications
 | Bash                | HTML        | C                  |
 |                     |             | KML                |
 
-
-                       
-
+&nbsp;
 ### Software Proficiencies
 
-**Tools**
 
 |  Command Line   | Debugging | Forensics |     Networking      | Steganography |    Web Application Testing     | Virtualisation |
 | :-------------: | :-------: | :-------: | :-----------------: | :-----------: | :----------------------------: | :----------------------------: |
