@@ -63,7 +63,7 @@ Completed eight GCSE qualifications
 | Bash            |           |           |      TCP Dump       |               |                                | |
 
 
-**Operating Systems**
+### Operating Systems
 
 - Windows (XP, Vista, 7, 8 and 10)
 - Linux
@@ -75,7 +75,7 @@ Completed eight GCSE qualifications
 - MacOS (> 16.10)
 
 
-**Development Environments**
+### Development Environments
 
 - Brackets ❤
 - Arduino IDE
