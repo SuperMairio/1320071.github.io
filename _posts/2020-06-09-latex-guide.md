@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Simple Guide to Basic LaTeX
-subtitle: For beginners and me, when I forget all the syntax after months of not touching Overleaf
+subtitle: For when you get bored of Word and wanna try something new
 date:   2020-06-09 16:04:51 +0100
 tags: [Guide, LaTeX]
 ---
