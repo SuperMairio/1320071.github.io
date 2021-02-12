@@ -9,7 +9,7 @@ tags: [Guide]
 
 ---
 
-## Whats in this guide?
+## What's in this guide?
 
 - Where to get themes and icons
   - How to install them
@@ -154,8 +154,6 @@ Mine has been changed to a star icon and a Kaomoji because I think it's cute.
 A bit of advice: add spacers between items to keep things to the far left/right of the bar or everything will smoosh to the left.
 
 ---
-
-
 ## References 
 <details>
  <summary markdown="span"></summary>

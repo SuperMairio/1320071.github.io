@@ -11,6 +11,34 @@ For university whitepapers I have a template on my <a href="https://github.com/S
 
 Also if you want you can download a PDF version of this cheat sheet <a href="/assets/pdfs/Cheat_Sheet.pdf" download>here </a> (yes, it was made with LaTeX)
 
+## What's in this guide
+
+- Headers
+- Text
+  - Sizes
+  - Fonts
+  - Colour
+- Headers and footers
+- Acronyms
+  - Defining
+  - Using in text
+- Including files
+- Line spacing
+- Columns
+- Table of contents
+- Images
+  - Changing size
+  - Assigning a fixed location
+  - Adding captions/labels
+- Tables
+  - Borders
+  - Alligning text
+  - Assigning column sizes
+  - Merging cells
+- Including code
+  - Code themes
+  - Making table of listings
+
 ## Headers
 
 ![Headers](/assets/img/section.png)<br/>
