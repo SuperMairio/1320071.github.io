@@ -13,17 +13,12 @@ author: Mairi MacLeod
 #CV: "aboutme"
 
 navbar-links:
-  Blogs/Guides: 
-    - LaTeX Guide: "2020-06-09-latex-guide" 
-    - Twitter Bot: "2020-07-14-twitter-bot"
-    - Discord Bot: "2020-08-05-discord-bot"
-    - Docker Blog: "2020-09-16-docker-bot"
-    - Customising Linux: "2021-02-11-aesthetic-guide"
-    - View all: "tags"
+  Blogs/Guides: "tags"
   Talks: "talks"
   Whitepapers: "/Whitepapers/Whitepaper-home"
   CV: "aboutme"
   Twitter: "https://twitter.com/super_mairio"
+  GitHub: "https://github.com/SuperMairio"
 
 # --- Logo --- #
 
@@ -74,8 +69,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "Github"
-
+url-pretty: "Home"
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
 
