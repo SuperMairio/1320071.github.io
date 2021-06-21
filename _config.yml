@@ -15,7 +15,7 @@ author: Mairi MacLeod
 navbar-links:
   Blogs/Guides: "tags"
   Talks: "talks"
-  Whitepapers: "/Whitepapers/Whitepaper-home"
+  Whitepapers: "assets/Whitepapers/Whitepaper-home"
   CV: "aboutme"
   Twitter: "https://twitter.com/super_mairio"
   GitHub: "https://github.com/SuperMairio"
@@ -155,7 +155,7 @@ footer-link-col: "#404040"
 title-separator: "-"
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+date_format: "%-d %B, %Y"
 
 # Facebook App ID
 #fb_app_id: ""
@@ -183,7 +183,7 @@ defaults:
       layout: "post"
       comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      readtime: false # add estimated reading time on all blog posts
+      readtime: true # add estimated reading time on all blog posts
   -
     scope:
       path: "" # all files

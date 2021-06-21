@@ -7,6 +7,7 @@ tags: [Guide, LaTeX]
 ---
 
 ---
+
 For university whitepapers I have a template on my <a href="https://github.com/SuperMairio/Whitepaper-Template">github</a> 
 
 Also if you want you can download a PDF version of this cheat sheet <a href="/assets/pdfs/Cheat_Sheet.pdf" download>here </a> (yes, it was made with LaTeX)

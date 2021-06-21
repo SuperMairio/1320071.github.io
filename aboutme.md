@@ -50,7 +50,6 @@ Completed eight GCSE qualifications
 | <a href="https://github.com/SuperMairio/Mandelbrot">C++</a>                | JavaScript  | <a href="https://supermairio.github.io/Whitepapers/ExploitTutorial/">Perl</a>               |
 | CSS                 | <a href="https://github.com/SuperMairio/Pi-Quiz">Flask</a>        | Swift              |
 | Bash                | HTML        | C                  |
-|                     |             | KML                |
 
 &nbsp;
 ### Software Proficiencies
